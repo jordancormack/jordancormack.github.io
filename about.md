@@ -6,4 +6,4 @@ permalink: /about/
 
 Some information about you!
 
-### [Contact](www.jordancormack.co.uk/about)
+### [Contact](https://jordancormack.co.uk/about)
