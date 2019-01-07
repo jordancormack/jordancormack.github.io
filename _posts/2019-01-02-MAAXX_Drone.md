@@ -15,6 +15,8 @@ Following a similar method to the [Controlling a Drone with a PS4 Controller](ht
 
 OpenCV will be used to find and track a line from a camera onboard the drone. Initially a USB webcam was used, but I have now switched to the Pi Camera, mostly to save weight.
 
+<img src="/images/drone_early_line.gif" alt="overview" class="inline">
+
 *add opencv method here with frame captures of each step*
 
 ### Pitch/Roll compensation
