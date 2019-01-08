@@ -19,7 +19,7 @@ Using Python & OpenCV, the video stream from the connected camera is masked base
 
 <img src="/images/drone_early_line.gif" alt="early line tracking" class="inline">
 
-*add mroe detail and opencv method here with frame captures of each step*
+*add more detail and opencv method here with frame captures of each step*
 
 ### Pitch/Roll compensation
 
