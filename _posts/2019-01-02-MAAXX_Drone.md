@@ -3,9 +3,9 @@ layout: post
 title: Line Following Drone
 ---
 
-<img src="/images/drone_10.jpg" alt="main_iamge" class="inline">
-
 This post shows the current state of a project to create a line following drone, with the goal of entering into the [MAAXX](https://maaxx-europe.com/) Competition. *As this project is still in progress, there are many things still to do and things here that will change.*
+
+<img src="/images/drone_10.jpg" alt="main_iamge" class="inline">
 
 ### System Overview
 
@@ -39,3 +39,21 @@ This theory is shown in the below GIF, where the camera view moves but the blue 
 As mentioned in the system overview, this will closely follow the method used in my [Controlling a Drone with a PS4 Controller](https://jordancormack.github.io/DS4/) post. For testing purposes, the drone will default to manual control using the PS4 controller and switch to autonomous flight when a button on the controller is pressed.
 
 One of the main reasons for using a PS4 controller instead of a more standard RC controller for manual flight is that the Betaflight firmware can only accept one input method. This means switching from manual flight using PPM/SBUS etc. to autonomous flight using MSP during flight is not possible, so all flight controll must be done over MSP and switching modes must be done before the input to the flight controller (i.e. on the Pi).
+
+### Hardware / Body Design
+
+*(I might make a separate post for this section at some point)*
+
+An existing carbon fibre body (ZMR 250) will be used as a base, and 3D printed parts to house the additional components will be added.
+
+Some initial designs:
+<img src="/images/drone_1.png" alt="design_1" class="inline">
+<img src="/images/drone_2.png" alt="design_2" class="inline">
+<img src="/images/drone_6.png" alt="design_3" class="inline">
+
+After some inital designs using the Raspberry Pi Model B, the current system uses the new Raspberry Pi 3 Model A (shown in the middle), which has a good balance of size/weight and performance.
+
+<img src="/images/drone_pi_2.jpg" alt="pis" class="inline">
+
+<img src="/images/drone_12.jpg" alt="main_iamge" class="inline">
+<img src="/images/drone_13.jpg" alt="main_iamge" class="inline">
