@@ -11,6 +11,8 @@ The project can be split into two main parts. The first part is to find and trac
 
 Following a similar method to the [Controlling a Drone with a PS4 Controller](https://jordancormack.github.io/DS4/) post, a Raspberry Pi will be used to send flight commands (RC inputs) to a Betaflight based flight controller. The difference here is that instead of manual control using a PS4 controller, an onboard camera and [OpenCV](https://opencv.org/) will be used to determine what inputs are needed to follow the line.
 
+<img src="/images/drone_overview_1.JPG" alt="overview" class="inline">
+
 ### Line Following Method
 
 OpenCV will be used to find and track a line from a camera onboard the drone. Initially a USB webcam was used, but I have now switched to the Pi Camera, mostly to save weight.
