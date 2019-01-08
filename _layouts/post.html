@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% for post in site.posts %}
+  <img src="{{ site.baseurl }}/{{ post.img }}">
+{% endfor %}
+
 <article class="post">
   <h1>{{ page.title }}</h1>
 
@@ -12,10 +16,6 @@ layout: default
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
-  
-  {% for post in site.posts %}
-    <img src="{{ site.jordancormack.github.io }}/{{ post.img }}">
-  {% endfor %}
 
   {% include disqus.html %}
 </article>
