@@ -5,7 +5,7 @@ title: Line Following Drone
 
 This post shows the current state of a project to create a line following drone, with the goal of entering into the [MAAXX](https://maaxx-europe.com/) Competition. *As this project is still in progress, there are many things still to do and things here that will change.*
 
-<img src="/images/drone_10.jpg" alt="main_iamge" class="inline">
+<img src="/images/drone_10.jpg" alt="main_image" class="inline">
 
 ### System Overview
 
@@ -55,5 +55,6 @@ After some inital designs using the Raspberry Pi Model B, the current system use
 
 <img src="/images/drone_pi_2.jpg" alt="pis" class="inline">
 
-<img src="/images/drone_12.jpg" alt="main_iamge" class="inline">
-<img src="/images/drone_13.jpg" alt="main_iamge" class="inline">
+<img src="/images/drone_12.jpg" alt="drone_side" class="inline">
+
+<img src="/images/drone_13.jpg" alt="drone_bottom" class="inline">
