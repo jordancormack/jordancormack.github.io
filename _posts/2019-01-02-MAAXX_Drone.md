@@ -26,7 +26,7 @@ Using Python & OpenCV, the video stream from the connected camera is masked base
 During flight, when a drone translates left/right/forward/backward it must either pitch or roll the entire body. This is a problem when trying to track a line as the camera view of the line will also shift. To combat this, a gimbal is ususally added to keep the camera straight when the drone is pitching/rolling. Instead of adding a gimbal, my current method takes the pitch and roll angles from the flight controller, and the field of view of the camera, and plots a point directly below the drone. As the drone pitches and rolls, this point will stay fixed below the drone, and allows the code to better understand where the drone is relative to the line on the ground. In theory this removes the need to add a gimbal to the camera.
 
 This theory is shown in the below GIF, where the camera view moves but the blue dot (in the camera view) stays in the same location, directly below the drone.
-<img src="/iamges/test_gif.gif" alt="pitch/roll compensation" class="inline">
+<img src="/images/test_gif.gif" alt="pitch/roll compensation" class="inline">
 
 *I know there are many problems with the accuracy of this method...but it seems to work well enough for me*
 
