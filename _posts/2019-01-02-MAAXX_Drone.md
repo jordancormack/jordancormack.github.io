@@ -17,7 +17,7 @@ OpenCV will be used to find and track a line from a camera onboard the drone. In
 
 Using Python & OpenCV, the video stream from the connected camera is masked based on the desired colour of the line to be followed. Contours on this mask can then be found and the biggest one should be the line. A line of best fit can then be found based on this contour, and the gradient and intercepts with the edges of the frame can be determined. This means we now know where the line is on the screen and the direction it is heading. The below GIF shows a simple script which shows arrows depending on what side of the frame the line is on, and if it is facing left or right.
 
-<img src="/images/drone_early_line.gif" alt="overview" class="inline">
+<img src="/images/drone_early_line.gif" alt="early line tracking" class="inline">
 
 *add mroe detail and opencv method here with frame captures of each step*
 
@@ -26,7 +26,7 @@ Using Python & OpenCV, the video stream from the connected camera is masked base
 During flight, when a drone translates left/right/forward/backward it must either pitch or roll the entire body. This is a problem when trying to track a line as the camera view of the line will also shift. To combat this, a gimbal is ususally added to keep the camera straight when the drone is pitching/rolling. Instead of adding a gimbal, my current method takes the pitch and roll angles from the flight controller, and the field of view of the camera, and plots a point directly below the drone. As the drone pitches and rolls, this point will stay fixed below the drone, and allows the code to better understand where the drone is relative to the line on the ground. In theory this removes the need to add a gimbal to the camera.
 
 This theory is shown in the below GIF, where the camera view moves but the blue dot (in the camera view) stays in the same location, directly below the drone.
-<img src="test_gif.gif" alt="overview" class="inline">
+<img src="/iamges/test_gif.gif" alt="pitch/roll compensation" class="inline">
 
 *I know there are many problems with the accuracy of this method...but it seems to work well enough for me*
 
