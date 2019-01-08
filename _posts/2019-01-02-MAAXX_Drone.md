@@ -51,7 +51,7 @@ Some initial designs:
 <img src="/images/drone_2.jpg" alt="design_2" class="inline">
 <img src="/images/drone_6.png" alt="design_3" class="inline">
 
-After some inital designs using the Raspberry Pi Model B, the current system uses the new Raspberry Pi 3 Model A (shown in the middle), which has a good balance of size/weight and performance.
+After some inital designs using the Raspberry Pi Model B, the current system uses the new Raspberry Pi 3 Model A (shown in the middle), which has a good balance of size/weight and performance. This allowed the Pi to be mounted below the drone frame, reducing the overall size and improving the centre of gravity. It also allowed easy mounting of the Pi Camera, and access to the GPIO for connection with the flight controller. The Pi is powdered using a microUSB cable, attached to a the 5V pad on the flight controller.
 
 <img src="/images/drone_pi_2.jpg" alt="pis" class="inline">
 
