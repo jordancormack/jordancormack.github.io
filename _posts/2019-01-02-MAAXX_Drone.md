@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Line Following Drone
+image: /images/drone_overview_1.JPG
 ---
 
 This post shows the current state of a project to create a line following drone, with the goal of entering into the [MAAXX](https://maaxx-europe.com/) Competition. *As this project is still in progress, there are many things still to do and things here that will change.*
