@@ -11,7 +11,11 @@ layout: default
       <div class="entry">
         {{ post.excerpt }}
       </div>
-      <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}">
+      
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}">
+      </a>
+      
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
