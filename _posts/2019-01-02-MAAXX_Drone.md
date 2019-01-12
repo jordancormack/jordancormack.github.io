@@ -58,4 +58,4 @@ After some inital designs using the Raspberry Pi Model B, the current system use
 
 <img src="/images/drone_12.jpg" alt="drone_side" class="inline">
 
-//<img src="/images/drone_13.jpg" alt="drone_bottom" class="inline">
+\\<img src="/images/drone_13.jpg" alt="drone_bottom" class="inline">
