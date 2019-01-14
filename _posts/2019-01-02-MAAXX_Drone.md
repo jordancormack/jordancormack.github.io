@@ -10,9 +10,9 @@ This post shows the current state of a project to create a line following drone,
 
 1. <a href="#system_overview">System Overview</a>
 2. <a href="#line_following_method">Line Following Method</a>
-3. <a href="pitchroll">Pitch/Roll Compensation</a>
-4. <a href="control">Control Method</a>
-5. <a href="body">Hardware and Body Design</a>
+3. <a href="#pitchroll">Pitch/Roll Compensation</a>
+4. <a href="#control">Control Method</a>
+5. <a href="#body">Hardware and Body Design</a>
 
 <img src="/images/drone_10.jpg" alt="main_image" class="inline">
 
