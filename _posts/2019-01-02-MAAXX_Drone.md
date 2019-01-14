@@ -8,13 +8,14 @@ This post shows the current state of a project to create a line following drone,
 
 ### Contents:
 
-<A HREF="#system_oveview">System Overview</A>
+1. <a href="#system_oveview">System Overview</a>
+2. <a href="#line_following_method">Line Following Method</a>
 
 <img src="/images/drone_10.jpg" alt="main_image" class="inline">
 
-<A NAME="system_overview">
-  
+<a id="system_overview">  
 ### System Overview
+</a>
 
 The project can be split into two main parts. The first part is to find and track the line and the second part is getting the drone to follow the line.
 
@@ -22,7 +23,9 @@ Following a similar method to the [Controlling a Drone with a PS4 Controller](ht
 
 <img src="/images/drone_overview_1.JPG" alt="overview" class="inline">
 
+<a id="line_following_method">
 ### Line Following Method
+</a>
 
 OpenCV will be used to find and track a line from a camera onboard the drone. Initially a USB webcam was used, but I have now switched to the Pi Camera, mostly to save weight.
 
