@@ -46,7 +46,7 @@ This theory is shown in the below GIF, where the camera view moves but the blue 
 
 *I know there are many problems with the accuracy of this method...but it seems to work well enough for me*
 
-<a id="contol"></a>
+<a id="control"></a>
 ### Control Method
 
 As mentioned in the system overview, this will closely follow the method used in my [Controlling a Drone with a PS4 Controller](https://jordancormack.github.io/DS4/) post. For testing purposes, the drone will default to manual control using the PS4 controller and switch to autonomous flight when a button on the controller is pressed.
