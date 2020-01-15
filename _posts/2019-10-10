@@ -1,0 +1,14 @@
+---
+layout: post
+title: Autonomous Drone for First Aid Kit Delivery
+image: /images/sciroc4.jpg
+---
+
+In September 2019 I lead a team which took part in the [SciRoc](https://sciroc.eu/) Autonomous Drone Competition. The challenge was to develop a drone which could deliver a small first aid kit autonomously, whilst avoiding obstacles along the way, without the use of GPS.
+
+<img src="/images/sciroc3.jpg" alt="overview" class="inline">
+
+The drone which was developed used an Intel RealSense T265 tracking camera as a positioning system, and a 360 degree laser rangefinder for object detection. A Raspberry Pi was used for high level mission management, and a Matek F405 running Ardupilot provided the low level flight control.
+
+<img src="/images/sciroc1.jpg" alt="overview" class="inline">
+<img src="/images/sciroc2.jpg" alt="overview" class="inline">
