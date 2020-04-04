@@ -50,6 +50,11 @@ Looking at the additive manufacturing specific outcomes, the results are...inter
 
 <img src="/images/Generative_Design_27.JPG" alt="" class="inline">
 
+A rolled back iteration of one of the generatively designed parts was 3D printed in PLA to compare to the existing human designed part. Even the non-fully-optimised generative part saved over 25% of the mass over the human design and feels just as strong in the loading direction, although much more flex is present off-axis.
+
+<img src="/images/Generative_Design_Comp1.JPG" alt="" class="inline">
+<img src="/images/Generative_Design_Comp2.JPG" alt="" class="inline">
+
 ### Conclusion
 
 I think generative design in Fusion 360 is a very useful tool for easily optimising parts, but it is not yet a replacement for human design in a lot of cases.
