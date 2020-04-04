@@ -21,3 +21,7 @@ To ensure that the generateive design process deos not add material in undesired
 Next, the essential geometry is set to 'preserve' shown in green, and the other bodies are set to 'obstacle' in red. The structural loads and constraints can also be added. Here shown by the vertical motor force, and the fixed body mount.
 
 <img src="/images/Generative_Design_22.JPG" alt="" class="inline">
+
+Since generative design in Fusion 360 takes into account the material and manufacturing process, these can also be specified. I have selected PA11 as the material and additive manufacturing and the process. Within the addditive manufacturing settings, a max overhang angle and mininimum wall thickness can also be set. The generative design objective was set to minimise stress, with the default safety factor left at 2.00 (a maximise stiffness objective is also available). A previewer runs the first few design iterations, to allow you to check if the study has any obvious errors. It can be seen that the initiall geometry is not too dissimilar to my 'human designed' arm.
+
+<img src="/images/Generative_Design_13crop.jpg" alt="" class="inline">
