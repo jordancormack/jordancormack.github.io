@@ -26,6 +26,6 @@ Since generative design in Fusion 360 takes into account the material and manufa
 
 <img src="/images/Generative_Design_13crop.jpg" alt="" class="inline">
 
-The generative design process can then be started. Instead of asking the user to specify the print orientation in the additive manufacturing setting, the generative design process gives three separate 'outcomes' - one for each of the XYZ axis. This means that the geometry will be designed in a way to *hopefully* produce a part which is not only optimised for the load, but also for manufacture.
+The generative design process can then be started. Instead of asking the user to specify the print orientation in the additive manufacturing setting, the generative design process gives three separate 'outcomes' - one for each of the XYZ axis. This means that the geometry will be designed in a way to *hopefully* produce a part which is not only optimised for the load, but also for manufacture. It can be seen that the first iteration generates essentially just a solid shape beween the specified bodies, but as the iterations increase, more complex geometry is forming.
 
 <img src="/images/Generative_Design_23.JPG" alt="" class="inline">
