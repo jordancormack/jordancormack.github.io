@@ -46,6 +46,8 @@ One way around this issue is to roll back a few iterations in the generative pro
 
 <img src="/images/Generative_Design_19.JPG" alt="" class="inline">
 
+<img src="/images/Generative_Design_27.JPG" alt="" class="inline">
+
 ### Conclusion
 
 I think generative design in Fusion 360 is a very useful tool for easily optimising parts, but it is not yet a replacement for human design in a lot of cases.
