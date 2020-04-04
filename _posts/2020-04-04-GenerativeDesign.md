@@ -12,4 +12,4 @@ These tests will focus on a small 3D printable drone arm, which I initally desig
 
 To start the generative design process, the essential geometry was created in Fusion 360.
 
-<img src="/images/Generative_Design_1crop.JPG" alt="" class="inline">
+<img src="/images/Generative_Design_1crop.jpg" alt="" class="inline">
