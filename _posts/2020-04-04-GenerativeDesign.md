@@ -12,7 +12,7 @@ These tests will focus on a small 3D printable drone arm, which I initally desig
 
 ### Setup
 
-To start the generative design process, only the essential geometry was created in Fusion 360. In this case, just the motor mount, and the body mount. The distance between these mounts was also specified.
+To start the generative design process, only the essential geometry was created in Fusion 360. In this case, just the motor mount and the body mount. The distance between these mounts was also specified.
 
 <img src="/images/Generative_Design_1crop.jpg" alt="" class="inline">
 
