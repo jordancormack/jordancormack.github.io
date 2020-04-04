@@ -34,6 +34,27 @@ The final 'converged' geometry for the unrestricted case is shown below. As expe
 
 <img src="/images/Generative_Design_16.JPG" alt="" class="inline">
 
-Exporting this geometry as a .STL from Fusion 360 and importing it to PrusaSlicer reveals that this unrestricted case is definitely not ideal for 3D printing, with very thin overhanging regions.
+Exporting this geometry as a .STL from Fusion 360 and importing it into PrusaSlicer reveals that this unrestricted case is definitely not ideal for 3D printing, with very thin regions which are not printable.
 
 <img src="/images/Generative_Design_21.JPG" alt="" class="inline">
+
+One way around this issue is to roll back a few iterations in the generative process. Going from the final iteration 46 to 30 shows a similar design, but just slightly less optimised. This geometry may not be as light as the final solution, but will be more easily manufactured, and the excess material will help in strengthening the part in any unplanned off-axis loading (e.g. knocks from the side or drops)
+
+<img src="/images/Generative_Design_19.JPG" alt="" class="inline">
+
+Positives:
+* Generative design allows complex designs to be created which may be much lighter or stiffer than those designed by humans.
+* Cloud computing means even laptops can be used to create complex designs
+* Specifying the manufacturing process means the generated design is much more manufacturable.
+* Setting 'preserve' regions for bolt access or nearby components is quick and easy.
+* Generated designs can be saved as a part or mesh for further editing or simulation.
+
+Negatives:
+* It assumes a solid object, which is often not the case in 3D printing.
+* Humans often design with many 'objectives' in mind. There is now way to optimise for low mass *and* high stiffness, or other factors such as low drag.
+* The process can only focus on the loads you have specified - if the part is knocked or loaded off-axis, it could break easily.
+* Some small seemingly irrelevant parts of geometry can still remain.
+* Final geometry often needs a bit of post-processing to clean up edges or holes.
+* Local machine power is not used to its full advantage.
+* Saving/converting/exporting parts in Fusion 360 is **SLOW**. Sometimes I waited over 10 minutes just to save a .STL, which would take less than 1 second in Solidworks or Inventor.
+* The final simulation views are a bit basic, further FEA may be necessary in some cases. In this example the X axis optimised geometry is not symmetrical which would case the arm to twist under load.
