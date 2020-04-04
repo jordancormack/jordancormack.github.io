@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Generative Design in Fusion 360: Inital Tests"
+title: "Generative Design in Fusion 360: Inital Study"
 image: /images/Generative_Design_16.JPG
 ---
 
