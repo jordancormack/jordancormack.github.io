@@ -63,14 +63,14 @@ I think generative design in Fusion 360 is a very useful tool for easily optimis
 
 Positives:
 * Generative design allows complex designs to be created which may be much lighter or stiffer than those designed by humans.
-* Cloud computing means even laptops can be used to create complex designs
-* Specifying the manufacturing process means the generated design is much more manufacturable.
+* Cloud computing means even laptops can be used to create complex designs.
+* Specifying the manufacturing process means the generated design is more manufacturable.
 * Setting 'obstacle' regions for bolt access or nearby components is quick and easy.
 * Generated designs can be saved as a part or mesh for further editing or simulation.
 
 Negatives:
 * It assumes a solid object, which is often not the case in 3D printing.
-* Humans often design with many 'objectives' in mind. There is now way to optimise for low mass *and* high stiffness, or other factors such as low drag.
+* Humans often design with many 'objectives' in mind. There is no way to optimise for low mass *and* high stiffness, or other factors such as low drag.
 * The process can only focus on the loads you have specified - if the part is knocked or loaded off-axis, it could break easily.
 * Some small seemingly irrelevant parts of geometry can still remain.
 * Final geometry often needs a bit of post-processing to clean up edges or holes.
