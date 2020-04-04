@@ -29,3 +29,11 @@ Since generative design in Fusion 360 takes into account the material and manufa
 The generative design process can then be started. Instead of asking the user to specify the print orientation in the additive manufacturing setting, the generative design process gives three separate 'outcomes' - one for each of the XYZ axis. This means that the geometry will be designed in a way to *hopefully* produce a part which is not only optimised for the load, but also for manufacture. It can be seen that the first iteration generates essentially just a solid shape beween the specified bodies, but as the iterations increase, more complex geometry is forming.
 
 <img src="/images/Generative_Design_23.JPG" alt="" class="inline">
+
+The final 'converged' geometry for the unrestricted case is shown below. As expected, the generative design process does exactly as it is told - minimising the object mass as far as possible whilst keeping the maximum stresses within those allowable for the specified material and safety factor.
+
+<img src="/images/Generative_Design_16.JPG" alt="" class="inline">
+
+Exporting this geometry as a .STL from Fusion 360 and importing it to PrusaSlicer reveals that this unrestricted case is definitely not ideal for 3D printing, with very thin overhanging regions.
+
+<img src="/images/Generative_Design_21.JPG" alt="" class="inline">
