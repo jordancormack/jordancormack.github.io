@@ -10,6 +10,8 @@ These tests will focus on a small 3D printable drone arm, which I initally desig
 
 <img src="/images/Human_Design_1crop.jpg" alt="" class="inline">
 
+### Setup
+
 To start the generative design process, only the essential geometry was created in Fusion 360. In this case, just the motor mount, and the body mount. The distance between these mounts was also specified.
 
 <img src="/images/Generative_Design_1crop.jpg" alt="" class="inline">
@@ -30,6 +32,8 @@ The generative design process can then be started. Instead of asking the user to
 
 <img src="/images/Generative_Design_23.JPG" alt="" class="inline">
 
+### Results
+
 The final 'converged' geometry for the unrestricted case is shown below. As expected, the generative design process does exactly as it is told - minimising the object mass as far as possible whilst keeping the maximum stresses within those allowable for the specified material and safety factor.
 
 <img src="/images/Generative_Design_16.JPG" alt="" class="inline">
@@ -41,6 +45,10 @@ Exporting this geometry as a .STL from Fusion 360 and importing it into PrusaSli
 One way around this issue is to roll back a few iterations in the generative process. Going from the final iteration 46 to 30 shows a similar design, but just slightly less optimised. This geometry may not be as light as the final solution, but will be more easily manufactured, and the excess material will help in strengthening the part in any unplanned off-axis loading (e.g. knocks from the side or drops)
 
 <img src="/images/Generative_Design_19.JPG" alt="" class="inline">
+
+### Conclusion
+
+I think generative design in Fusion 360 is a very useful tool for easily optimising parts, but it is not yet a replacement for human design in a lot of cases.
 
 Positives:
 * Generative design allows complex designs to be created which may be much lighter or stiffer than those designed by humans.
