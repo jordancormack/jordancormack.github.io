@@ -10,6 +10,14 @@ These tests will focus on a small 3D printable drone arm, which I initally desig
 
 <img src="/images/Human_Design_1crop.jpg" alt="" class="inline">
 
-To start the generative design process, the essential geometry was created in Fusion 360.
+To start the generative design process, only the essential geometry was created in Fusion 360. In this case, just the motor mount, and the body mount. The distance between these mounts was also specified.
 
 <img src="/images/Generative_Design_1crop.jpg" alt="" class="inline">
+
+To ensure that the generateive design process deos not add material in undesired locations, additional solid bodies were created in regions where access is needed - in this case for bolts or nearby components such as the motor and body.
+
+<img src="/images/Generative_Design_5crop.jpg" alt="" class="inline">
+
+Next, the essential geometry is set to 'preserve' shown in green, and the other bodies are set to 'obstacle' in red. The structural loads and constraints can also be added. Here shown by the vertical motor force, and the fixed body mount.
+
+<img src="/images/Generative_Design_22.JPG" alt="" class="inline">
