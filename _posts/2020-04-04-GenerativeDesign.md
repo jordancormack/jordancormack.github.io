@@ -57,7 +57,7 @@ A rolled back iteration of one of the generatively designed parts was 3D printed
 
 ### Conclusion
 
-I think generative design in Fusion 360 is a very useful tool for easily optimising parts, but it is not yet a replacement for human design in a lot of cases.
+I think generative design in Fusion 360 is a very useful tool for easily optimising parts, but it is not yet a replacement for human design in a lot of cases. Specifying a high safety factor or rolling back from the final iteration provides a generatively designed part which is still robust to off-axis unplanned loading which is difficult to simulate fully.
 
 Positives:
 * Generative design allows complex designs to be created which may be much lighter or stiffer than those designed by humans.
