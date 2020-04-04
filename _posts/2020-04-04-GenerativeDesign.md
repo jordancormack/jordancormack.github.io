@@ -46,6 +46,8 @@ One way around this issue is to roll back a few iterations in the generative pro
 
 <img src="/images/Generative_Design_19.JPG" alt="" class="inline">
 
+Looking at the additive manufacturing specific outcomes, the results are...interesting. As before, the generative design process has optimised for minimum mass, but in this case it has also attempted to produce a part which is 3D printable. The first design is supposed to be optimised for printing in the X-axis, the second in the Y-axis and the third in the Z-axis.
+
 <img src="/images/Generative_Design_27.JPG" alt="" class="inline">
 
 ### Conclusion
