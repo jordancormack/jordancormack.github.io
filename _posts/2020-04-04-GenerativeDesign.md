@@ -16,7 +16,7 @@ To start the generative design process, only the essential geometry was created 
 
 <img src="/images/Generative_Design_1crop.jpg" alt="" class="inline">
 
-To ensure that the generateive design process deos not add material in undesired locations, additional solid bodies were created in regions where access is needed - in this case for bolts or nearby components such as the motor and body.
+To ensure that the generateive design process does not add material in undesired locations, additional solid bodies were created in regions where access is needed - in this case for bolts or nearby components such as the motor and body.
 
 <img src="/images/Generative_Design_5crop.jpg" alt="" class="inline">
 
@@ -24,7 +24,7 @@ Next, the essential geometry is set to 'preserve' shown in green, and the other 
 
 <img src="/images/Generative_Design_22.JPG" alt="" class="inline">
 
-Since generative design in Fusion 360 takes into account the material and manufacturing process, these can also be specified. I have selected PA11 as the material and additive manufacturing and the process. Within the addditive manufacturing settings, a max overhang angle and mininimum wall thickness can also be set. The generative design objective was set to minimise stress, with the default safety factor left at 2.00 (a maximise stiffness objective is also available). A previewer runs the first few design iterations, to allow you to check if the study has any obvious errors. It can be seen that the initial geometry is not too dissimilar to my 'human designed' arm.
+Since generative design in Fusion 360 takes into account the material and manufacturing process, these can also be specified. I have selected PA11 as the material and additive manufacturing and the process. Within the addditive manufacturing settings, a max overhang angle and mininimum wall thickness can also be set. The generative design objective was set to minimise stress, with the default safety factor left at 2.00 (a maximise stiffness objective is also available). An 'unrestricted' case was also run alongside the additive manufacturing one, removing the constraints for 3D printing. A previewer runs the first few design iterations, to allow you to check if the study has any obvious errors. It can be seen that the initial geometry is not too dissimilar to my 'human designed' arm.
 
 <img src="/images/Generative_Design_13crop.jpg" alt="" class="inline">
 
@@ -63,7 +63,7 @@ Positives:
 * Generative design allows complex designs to be created which may be much lighter or stiffer than those designed by humans.
 * Cloud computing means even laptops can be used to create complex designs
 * Specifying the manufacturing process means the generated design is much more manufacturable.
-* Setting 'preserve' regions for bolt access or nearby components is quick and easy.
+* Setting 'obstacle' regions for bolt access or nearby components is quick and easy.
 * Generated designs can be saved as a part or mesh for further editing or simulation.
 
 Negatives:
@@ -75,3 +75,4 @@ Negatives:
 * Local machine power is not used to its full advantage.
 * Saving/converting/exporting parts in Fusion 360 is **SLOW**. Sometimes I waited over 10 minutes just to save a .STL, which would take less than 1 second in Solidworks or Inventor.
 * The final simulation views are a bit basic, further FEA may be necessary in some cases. In this example the X axis optimised geometry is not symmetrical which would case the arm to twist under load.
+* Only limited materials are included by default
