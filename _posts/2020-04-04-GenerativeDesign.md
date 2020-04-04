@@ -1,5 +1,5 @@
 ---
 layout: post
-title: "The JetCase: Jetson Nano Peli Case"
+title: "Generative Design in Fusion 360: Inital Tests"
 image: /images/Generative_Design_16.jpg
 ---
