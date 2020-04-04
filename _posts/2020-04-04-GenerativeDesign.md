@@ -52,8 +52,8 @@ Looking at the additive manufacturing specific outcomes, the results are...inter
 
 A rolled back iteration of one of the generatively designed parts was 3D printed in PLA to compare to the existing human designed part. Even the non-fully-optimised generative part saved over 25% of the mass over the human design and feels just as strong in the loading direction, although much more flex is present off-axis.
 
-<img src="/images/Generative_Design_Comp1.JPG" alt="" class="inline">
-<img src="/images/Generative_Design_Comp2.JPG" alt="" class="inline">
+<img src="/images/Generative_Design_Comp1.jpg" alt="" class="inline">
+<img src="/images/Generative_Design_Comp2.jpg" alt="" class="inline">
 
 ### Conclusion
 
