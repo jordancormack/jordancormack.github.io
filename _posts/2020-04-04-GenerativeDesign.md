@@ -78,3 +78,8 @@ Negatives:
 * Saving/converting/exporting parts in Fusion 360 is **SLOW**. Sometimes I waited over 10 minutes just to save a .STL, which would take less than 1 second in Solidworks or Inventor.
 * The final simulation views are a bit basic, further FEA may be necessary in some cases. In this example the X axis optimised geometry is not symmetrical which would case the arm to twist under load.
 * Only limited materials are included by default
+
+### Update 1
+
+<img src="/images/Generative_Design_Comp2.jpg" alt="" class="inline">
+<img src="/images/giphy.gif" alt="" class="inline">
