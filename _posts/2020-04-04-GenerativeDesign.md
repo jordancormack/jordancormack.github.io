@@ -81,5 +81,7 @@ Negatives:
 
 ### Update 1
 
+Adding an additional 'obstruction' geometry through the middle of the part has two beneficial results in this case. The first is that it provides a space for the motor cables to run within the arm, and the second is that is causes the arm to be wider, increasing it's strength for small unplanned side impacts.
+
 <img src="/images/Generative_Design_28.jpg" alt="" class="inline">
 <img src="/images/giphy.gif" alt="" class="inline">
