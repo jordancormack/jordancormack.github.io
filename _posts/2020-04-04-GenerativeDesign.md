@@ -87,7 +87,7 @@ Adding an additional 'obstruction' geometry through the middle of the part will 
 
 As before, the unrestricted outcome produces results which have very thin geometry in places. The unrestricted geometry was 3D printed and is shown below (left) next to the original human design (right).
 
-<img src="/images/Generative_Comp7" alt="" class="inline">
+<img src="/images/Generative_Comp7.jpg" alt="" class="inline">
 
 As the thin sections of the unrestricted outcome were easily broken, an additive manufacturing outcome was selected, which resulted in much thicker walls.
 
