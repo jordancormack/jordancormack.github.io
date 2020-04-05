@@ -81,7 +81,14 @@ Negatives:
 
 ### Update 1
 
-Adding an additional 'obstruction' geometry through the middle of the part has two beneficial results in this case. The first is that it provides a space for the motor cables to run within the arm, and the second is that is causes the arm to be wider, increasing it's strength for small unplanned side impacts.
+Adding an additional 'obstruction' geometry through the middle of the part will ensure that there is space for the motor cables to run.
 
 <img src="/images/Generative_Design_28.JPG" alt="" class="inline">
+
+As before, the unrestricted outcome produces results which have very thin geometry in places. The unrestricted geometry was 3D printed and is shown below (left) next to the original human design (right).
+
+<img src="/images/Generative_Comp7" alt="" class="inline">
+
+As the thin sections of the unrestricted outcome were easily broken, an additive manufacturing outcome was selected, which resulted in much thicker walls.
+
 <img src="/images/giphy.gif" alt="" class="inline">
