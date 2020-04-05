@@ -54,8 +54,8 @@ The first design is supposed to be optimised for printing in the X-axis, the sec
 
 A rolled back iteration of one of the generatively designed parts was 3D printed in PLA to compare to the existing human designed part. Even the non-fully-optimised generative part saved over 25% of the mass over the human design and feels just as strong in the loading direction, although much more flex is present off-axis.
 
-<img src="/images/Generative_Design_Comp6.jpg" alt="" class="inline">
-<img src="/images/Generative_Design_Comp5.jpg" alt="" class="inline">
+<img src="/images/Generative_Design_Comp6.JPG" alt="" class="inline">
+<img src="/images/Generative_Design_Comp5.JPG" alt="" class="inline">
 
 ### Conclusion
 
