@@ -81,5 +81,5 @@ Negatives:
 
 ### Update 1
 
-<img src="/images/Generative_Design_Comp2.jpg" alt="" class="inline">
+<img src="/images/Generative_Design_28.jpg" alt="" class="inline">
 <img src="/images/giphy.gif" alt="" class="inline">
