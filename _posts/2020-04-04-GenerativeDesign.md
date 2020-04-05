@@ -89,6 +89,6 @@ As before, the unrestricted outcome produces results which have very thin geomet
 
 <img src="/images/Generative_Comp7.jpg" alt="" class="inline">
 
-As the thin sections of the unrestricted outcome were easily broken, an additive manufacturing outcome was selected, which resulted in much thicker walls.
+As the thin sections of the unrestricted outcome were easily broken, an additive manufacturing outcome was selected, which resulted in much thicker walls. This geometry will likely be heavier, but will be more 3D printable and robust to forces other than the one specified in the generative design study.
 
 <img src="/images/giphy.gif" alt="" class="inline">
