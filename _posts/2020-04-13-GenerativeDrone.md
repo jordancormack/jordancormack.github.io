@@ -84,7 +84,11 @@ In an attempt to increase the arm stiffness in the horizontal plane, additional 
 
 <img src="/images/generative_drone_body_iso_stiffer.png" alt="" class="inline">
 
-Results from a modal analysis of the modified geometry shows the first two modes staying the same, but increasing in frequency by 6% and 12%. The following modes do not look the same as previously, so a direct comparison is difficult to make. The flex shown by Mode 4 is however not present in any of the first 8 modes in the modified geometry, suggesting that the stiffeners should be capable of reducing the vibration which was present in the initial test flights.
+Results from a modal analysis of the modified geometry shows the first two modes staying the same, but increasing in frequency by 6% and 12% (Mode 1 comparison shown below).
+
+<img src="/images/generative_drone_mode1_comparison.gif" alt="" class="inline">
+
+The following modes do not look the same as previously, so a direct comparison is difficult to make. The flex shown by Mode 4 is however not present in any of the first 8 modes in the modified geometry, suggesting that the stiffeners should be capable of reducing the vibration which was present in the initial test flights.
 
 ### First 8 Mode Comparison
 
