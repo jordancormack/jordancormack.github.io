@@ -61,7 +61,7 @@ Similarly to the generative design setup, modal analysis in Fusion 360 seems to 
 
 <img src="/images/generative_drone_mode1.gif" alt="" class="inline">
 
-The first mode which seems plausible in real life instead of just a rotation about the fixed constraint is mode 4. This mode seems to not just rotate around the fixed constraint has a frequency of 120 Hz - which is only just above the 111Hz frequency of vibrations found in the BlackBox data log, suggesting that it could be the same mode. From the animation it looks like the arms are flexing symmetrically in the horizontal plane. this is not a suprise, as there is much less stiffness in this axis than the vertical direction.
+The first mode which seems plausible in real life instead of just a rotation about the fixed constraint is mode 4. This mode seems to not just rotate around the fixed constraint has a frequency of 120 Hz - which is only just above the 111Hz frequency of vibrations found in the BlackBox data log, suggesting that it could be the same mode. The real part is not completely solid which would cause it to be slightly less stiff than the solid simulation. From the animation it looks like the arms are flexing symmetrically in the horizontal plane. this is not a suprise, as there is much less stiffness in this axis than the vertical direction.
 
 <img src="/images/generative_drone_mode4.gif" alt="" class="inline">
 
