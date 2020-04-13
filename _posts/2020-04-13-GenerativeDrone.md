@@ -37,7 +37,7 @@ The generative design algorithm was set to generate an 'unrestricted' outcome, a
 
 <img src="/images/generative_drone_body_iso.png" alt="" class="inline">
 
-The only change which was made before 3D printing, was to slice a small amount off the base, to allow it to sit flat on the build plate without needing any support structure.
+The only change which was made before 3D printing was to slice a small amount off of the base, to allow it to sit flat on the build plate without needing any support structure.
 
 <img src="/images/generative_drone_body_side.png" alt="" class="inline">
 <img src="/images/generative_drone_body_side_cut.png" alt="" class="inline">
@@ -48,7 +48,7 @@ Once printed, the components were added to check the mounting dimensions and cle
 
 <img src="/images/generative_drone_assembly_1.jpg" alt="" class="inline">
 
-During the initial flight tests the drone was capable of controlled flight, but there were strong high frequency vibrations causing it to be unstable and the motors to heat up. The high frequency of the vibrations suggested that it was not an issue with the flight software configuration (i.e. Betaflight PIDs). Looking at the onboard blackbox data which was logged at 1KHz, strong oscillations can be seen in the gyro and accelerometer data, starting at around 10% throttle. Zooming in on the gyroscope data, regular oscillations can be seen at around 111Hz.
+During the initial flight tests the drone was capable of controlled flight, but there were strong high frequency vibrations causing it to be unstable and the motors to heat up. The high frequency of the vibrations suggests that it was not an issue with the flight software configuration (i.e. Betaflight PIDs). Looking at the onboard blackbox data which was logged at 1KHz, strong oscillations can be seen in the gyro and accelerometer data, starting at around 10% throttle. Zooming in on the gyroscope data, regular oscillations can be seen at around 111Hz.
 
 <img src="/images/BlackBoxLog.JPG" alt="" class="inline">
 <img src="/images/BlackBoxLog_gyros.png" alt="" class="inline">
