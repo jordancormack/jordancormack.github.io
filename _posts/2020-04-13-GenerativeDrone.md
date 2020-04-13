@@ -57,7 +57,15 @@ As it is very difficult to see exactly how the body is vibrating at that frequen
 
 ### Modal Analysis
 
-Similarly to the generative design setup, modal analysis in Fusion 360 seems to require a fixed constraint on some part of the geometry. 
+Similarly to the generative design setup, modal analysis in Fusion 360 seems to require a fixed constraint on some part of the geometry. This will result in some modes being present in the analyis results which may not be exactly correct in real life - as instead of the body flexing, the whole drone would just rotate. The first mode is an example of this - it can be seen that the body is 'flexing' about the fixed constraint at the bottom. In real life this mode would not be likely as the would instead just rotate around the centre of mass, instead of an unrealistic fixed point.
+
+<img src="/images/generative_drone_mode1.gif" alt="" class="inline">
+
+The first mode which seems plausible in real life instead of just a rotation about the fixed constraint is mode 4. This mode seems to not just rotate around the fixed constraint has a frequency of 120 Hz - which is only just above the 111Hz frequency of vibrations found in the BlackBox data log, suggesting that it could be the same mode. From the animation it looks like the arms are flexing symmetrically in the horizontal plane. this is not a suprise, as there is much less stiffness in this axis than the vertical direction.
+
+<img src="/images/generative_drone_mode4.gif" alt="" class="inline">
+
+Below is a table of the first 8 modes and their corresponding frequencies. To me, all apart from mode 4 and 7 do not seem as valid since they mostly just rotate about the unrealistic fixed constraint at the base of the body. As Mode 7 is quite a bit higher in frequency than Mode 4 I will ignore it for now.
 
 | Mode | Frequency (Hz) |
 |:------:|:-----------:|
@@ -70,7 +78,15 @@ Similarly to the generative design setup, modal analysis in Fusion 360 seems to 
 | 7    | 501.4     |
 | 8    | 517.3     |
 
-### First 8 Modes
+### Geometry Modification
+
+In an attempt to increase the arm stiffness in the horizontal plane, additional geometry was added between each motor mount. This will of course add weight and drag, but it is mostly just a test to see if it works at reducing the vibrations.
+
+<img src="/images/generative_drone_body_iso_stiffer.png" alt="" class="inline">
+
+Results from a modal analysis of the modified geometry shows the first two modes staying the same, but increasing in frequency by 6% and 12%. The following modes do not look the same as previously, so a direct comparison is difficult to make. The flex shown by Mode 4 is however not present in any of the first 8 modes in the modified geometry, suggesting that the stiffeners should be capable of reducing the vibration which was present in the initial test flights.
+
+### First 8 Mode Comparison
 
 Below is a table and GIFs for the first 8 modes of both bodies. The first two modes look to be the same but the rest are not, as the added geometry has affected the stiffness more.
 
