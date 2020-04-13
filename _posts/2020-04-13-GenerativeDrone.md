@@ -4,7 +4,11 @@ title: "Designing a Drone in Fusion 360 using Generative Design & Modal Analysis
 image: /images/generative_drone1.jpg
 ---
 
-This post shows how generative design and modal analysis within Fusion 360 can be used to help design and develop a 3D printable drone body. For more specifics on Generative Design in Fusion 360, see my [previous post](https://jordancormack.github.io/GenerativeDesign/). The following electronic components were used for this drone:
+This post shows how generative design and modal analysis within Fusion 360 can be used to help design and develop a 3D printable drone body. For more specifics on Generative Design in Fusion 360, see my [previous post](https://jordancormack.github.io/GenerativeDesign/).
+
+*I am not an expert on Generative Design or Modal Analysis, these are just some initial experiments*
+
+The following electronic components were used for this drone:
 
 |         Component         |                                                                        Manufacturer                                                                        |
 |:-------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -47,9 +51,11 @@ During the initial flight tests the drone was capable of controlled flight, but 
 <img src="/images/BlackBoxLog.JPG" alt="" class="inline">
 <img src="/images/BlackBoxLog_gyros.png" alt="" class="inline">
 
-As it is very difficult to see exactly how the body is vibrating at that frequency, a modal analysis was done using the CAD geometry in Fusion 360 in an attempt to understand the vibration and reduce it.
+As it is very difficult to see exactly how the body is vibrating at that frequency, a modal analysis was carried out using the CAD geometry in Fusion 360 in an attempt to understand the vibration and reduce it.
 
 ### Modal Analysis
+
+Similarly to the generative design setup, modal analysis in Fusion 360 seems to require a fixed constraint on some part of the geometry. 
 
 | Mode | Frequency (Hz) |
 |:------:|:-----------:|
