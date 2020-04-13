@@ -12,7 +12,7 @@ This post shows how generative design and modal analysis within Fusion 360 can b
 |          Battery          |                          [Turnigy 800mAh 3 Cell](https://hobbyking.com/en_us/turnigy-800mah-3s-30c-lipo-pack.html?___store=en_us)                          |
 |          Receiver         |                                     [Turnigy TGY-iA6C](https://hobbyking.com/en_us/turnigy-ia6c-ppm-sbus-receiver.html)                                    |
 |           Motors          |             [EMAX RS1306 4000kv (Version 1)](https://www.flyingtech.co.uk/electronics/emax-rs1306-racespec-mini-red-bottom-motor-33004000kv) x4            |
-|         Propellers        |                           [Gemfan 3035BN 4 Blade](https://hobbyking.com/en_us/3035-bullnose-pc-4-blade-orange-1-pair-cw-ccw.html)                          |
+|         Propellers        |                           [Gemfan 3035BN 4 Blade](https://hobbyking.com/en_us/3035-bullnose-pc-4-blade-orange-1-pair-cw-ccw.html) x4                       |
 
 | Mode | Frequency (Hz) |
 |:------:|:-----------:|
