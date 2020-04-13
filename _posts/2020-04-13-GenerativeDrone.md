@@ -7,7 +7,7 @@ image: /images/generative_drone1.jpg
 This post shows how generative design and modal analysis within Fusion 360 can be used to help design and develop a 3D printable drone body.
 
 | Mode | Frequency |
-|------|-----------|
+|:------:|:-----------:|
 | 1    | 89.48     |
 | 2    | 108.1     |
 | 3    | 119.2     |
