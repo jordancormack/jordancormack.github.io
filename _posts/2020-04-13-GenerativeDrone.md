@@ -50,7 +50,7 @@ Once printed, the components were added to check the mounting dimensions and cle
 
 During the initial flight tests the drone was capable of controlled flight, but there were strong high frequency vibrations causing it to be unstable and the motors to heat up. The high frequency of the vibrations suggested that it was not an issue with the flight software configuration (i.e. Betaflight PIDs). Looking at the onboard blackbox data which was logged at 1KHz, strong oscillations can be seen in the gyro and accelerometer data, starting at around 10% throttle. Zooming in on the gyroscope data, regular oscillations can be seen at around 111Hz.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lxN22caPcKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&nbsp;</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lxN22caPcKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <img src="/images/BlackBoxLog.JPG" alt="" class="inline">
 <img src="/images/BlackBoxLog_gyros.png" alt="" class="inline">
