@@ -17,4 +17,15 @@ This post shows how generative design and modal analysis within Fusion 360 can b
 | 7    | 501.4     |
 | 8    | 517.3     |
 
+| Mode | Body 1 Frequency (Hz) | Body 2 Frequency (Hz) |
+|:----:|:---------------------:|:---------------------:|
+|   1  |         89.48         |         94.78         |
+|   2  |         108.1         |         121.5         |
+|   3  |         119.2         |         271.2         |
+|   4  |          120          |         326.7         |
+|   5  |         145.1         |         343.3         |
+|   6  |         379.2         |         392.6         |
+|   7  |         501.4         |         395.2         |
+|   8  |         517.3         |         420.3         |
+
 <img src="/images/generative_drone_mode1_comparison.gif" alt="" class="inline">
