@@ -94,13 +94,21 @@ Comparing the following modes directly is more challenging due to the added stif
 
 <img src="/images/generative_drone_mode3_comparison.gif" alt="" class="inline">
 
-Mode 4 is the one which was suspected to be most plausible as the one causing the real vibrations experienced in the inital test flights. Initially it is not clear that the 4th Modes are the same, but each arm is seemingly moving/rotating in the same direction as before, suggesting it could be the same. If so, the frequency has been increased by 172% from 120Hz to 326.7Hz.
+Mode 4 is the one which was suspected to be most plausible as the one causing the real vibrations experienced in the inital test flights. Initially it is not clear that the 4th Modes are the same, but each arm is seemingly moving/rotating in the same direction as before, suggesting it could be the same. If so, the frequency has been increased by 172% from 120Hz to 326.7Hz. The first 8 modes for both body geometries is shown at the bottom of this page.
 
 <img src="/images/generative_drone_mode4_comparison.gif" alt="" class="inline">
 
+Once the modal analysis was complete, the modified geometry was 3D printed, and is shown alongside the original below. The same components were added, and a second test flight showed no sign of heavy vibration or resonance up to 50% throttle. No testing above 50% throttle has been done so far.
+
+<img src="/images/generative_drone_comparison.jpg" alt="" class="inline">
+
+### Conclusion
+
+Generative design in Fusion 360 is a useful tool, but the setup is still fairly limiting and it is almost impossible to generate a geometry with multiple objectives such as minimum mass and drag with maximum stiffness for a complex load case such as a drone.
+
 ### First 8 Mode Comparison
 
-Below is a table and GIFs for the first 8 modes of both bodies. The first two modes look to be the same but the rest are not, as the added geometry has affected the stiffness more.
+Below is a table and some GIFs for the first 8 modes of both body geometries.
 
 | Mode | Body 1 Frequency (Hz) | Body 2 Frequency (Hz) |
 |:----:|:---------------------:|:---------------------:|
