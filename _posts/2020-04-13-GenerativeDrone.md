@@ -14,9 +14,16 @@ This post shows how generative design and modal analysis within Fusion 360 can b
 |           Motors          |             [EMAX RS1306 4000kv (Version 1)](https://www.flyingtech.co.uk/electronics/emax-rs1306-racespec-mini-red-bottom-motor-33004000kv) x4            |
 |         Propellers        |                           [Gemfan 3035BN 4 Blade](https://hobbyking.com/en_us/3035-bullnose-pc-4-blade-orange-1-pair-cw-ccw.html) x4                       |
 
-These were measured to determine the size and mounting dimensions.
+### Generative Design Setup
 
+The above components were measured to determine the size and mounting dimensions. An initial preserve geometry could then be created in Fusion 360 as shown below. This preserve geometry will be used by the generative design process as a base to build the body around. In this case the body is 'upside down' as this is the orientation that I want to 3D print it later, and the generative design process can only use the positive axis for the additive manufacturing method. It can be seen that there are four motor mount locations, spaced 110mm apart. The middle square will house the battery, and the bottom plate will be where the flight controller stack will be mounted. Four holes pass through the battery slot to allow access to the flight controller bolts.
 
+<img src="/images/generative_drone_preserve.png" alt="" class="inline">
+
+After the preserve geometry is done, obstacle geometry must be created. This tells the generative design algorithm wher material cannot be placed. Initially, this geometry is created where the battery, motors, flight controller, and bolt paths are located. As generative design has no way to simulate airflow, four large C-shaped bodies have also been created, to allow space in the generated body for air to flow past.
+
+<img src="/images/generative_drone_obstacle.png" alt="" class="inline">
+<img src="/images/generative_drone_obstacle2.png" alt="" class="inline">
 
 | Mode | Frequency (Hz) |
 |:------:|:-----------:|
