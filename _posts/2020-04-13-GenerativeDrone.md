@@ -53,6 +53,8 @@ During the initial flight tests the drone was capable of controlled flight, but 
 <img src="/images/BlackBoxLog.JPG" alt="" class="inline">
 <img src="/images/BlackBoxLog_gyros.png" alt="" class="inline">
 
+From the motor datasheet, there is no RPM given for 10% throttle, but extrapolating the given data gives a theoretical RPM of 6665 - which is 111 revolutions per second, matching the oscillation frequency shown in the gyro data. This shows that the motors are reaching a speed which is causing the body to resonate.
+
 As it is very difficult to see exactly how the body is vibrating at that frequency, a modal analysis was carried out using the CAD geometry in Fusion 360 in an attempt to understand the vibration and reduce it.
 
 ### Modal Analysis
@@ -61,7 +63,7 @@ Similarly to the generative design setup, modal analysis in Fusion 360 seems to 
 
 <img src="/images/generative_drone_mode1.gif" alt="" class="inline">
 
-The first mode which seems plausible in real life instead of just a rotation about the fixed constraint is mode 4. This mode seems to not just rotate around the fixed constraint has a frequency of 120 Hz - which is only just above the 111Hz frequency of vibrations found in the BlackBox data log, suggesting that it could be the same mode. The real part is not completely solid which would cause it to be slightly less stiff than the solid simulation. From the animation it looks like the arms are flexing symmetrically in the horizontal plane. this is not a suprise, as there is much less stiffness in this axis than the vertical direction.
+The first mode which seems plausible in real life instead of just a rotation about the fixed constraint is mode 4. This mode seems to not just rotate around the fixed constraint has a frequency of 120Hz - which is only just above the 111Hz frequency of vibrations found in the BlackBox data log, suggesting that it could be the same mode. The real part is not completely solid which would cause it to be slightly less stiff than the solid simulation. From the animation it looks like the arms are flexing symmetrically in the horizontal plane. this is not a suprise, as there is much less stiffness in this axis than the vertical direction.
 
 <img src="/images/generative_drone_mode4.gif" alt="" class="inline">
 
@@ -88,7 +90,13 @@ Results from a modal analysis of the modified geometry shows the first two modes
 
 <img src="/images/generative_drone_mode1_comparison.gif" alt="" class="inline">
 
-The following modes do not look the same as previously, so a direct comparison is difficult to make. The flex shown by Mode 4 is however not present in any of the first 8 modes in the modified geometry, suggesting that the stiffeners should be capable of reducing the vibration which was present in the initial test flights.
+Comparing the following modes directly is more challenging due to the added stiffening geometry. Mode 3 looks to be similar with all of the displacement acting in the same direction (but reversed), and the frequency has increased by 128%.
+
+<img src="/images/generative_drone_mode3_comparison.gif" alt="" class="inline">
+
+Mode 4 is the one which was suspected to be most plausible as the one causing the real vibrations experienced in the inital test flights. Initially it is not clear that the 4th Modes are the same, but each arm is seemingly moving/rotating in the same direction as before, suggesting it could be the same. If so, the frequency has been increased by 172% from 120Hz to 326.7Hz.
+
+<img src="/images/generative_drone_mode4_comparison.gif" alt="" class="inline">
 
 ### First 8 Mode Comparison
 
