@@ -116,8 +116,9 @@ The same components were added, and a second test flight showed no sign of heavy
 
 Generative design in Fusion 360 is a useful tool, but the setup is still fairly limiting and it is almost impossible to generate a geometry with multiple objectives such as minimum mass and drag with maximum stiffness for a complex load case such as a drone.
 
-### First 8 Mode Comparison
+Modal Analysis can also be useful, but again due to difficulties accurately simualting FDM 3D printed parts, it is mostly good for just comparisons and rough ballpark figures.
 
+### Comparison of the First 8 Modes
 Below is a table and some GIFs for the first 8 modes of both body geometries.
 
 | Mode | Body 1 Frequency (Hz) | Body 2 Frequency (Hz) |
