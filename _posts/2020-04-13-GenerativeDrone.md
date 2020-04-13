@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Designing a drone using Generative Design & Modal Analysis"
+title: "Designing a Drone in Fusion 360 using Generative Design & Modal Analysis"
 image: /images/.JPG
 ---
 
