@@ -119,7 +119,7 @@ Generative design in Fusion 360 is a useful tool, but the setup is still fairly 
 Modal Analysis can also be useful, but again due to difficulties accurately simualting FDM 3D printed parts, it is mostly good for just comparisons and rough ballpark figures.
 
 ### Comparison of the First 8 Modes
-Below is a table and some GIFs for the first 8 modes of both body geometries.
+Below is a table and some GIFs of the first 8 modes for both body geometries.
 
 | Mode | Body 1 Frequency (Hz) | Body 2 Frequency (Hz) |
 |:----:|:---------------------:|:---------------------:|
