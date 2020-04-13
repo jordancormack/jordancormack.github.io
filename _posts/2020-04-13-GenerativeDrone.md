@@ -97,7 +97,7 @@ Comparing the following modes directly is more challenging due to the added stif
 
 <img src="/images/generative_drone_mode3_comparison.gif" alt="" class="inline">
 
-Mode 4 is the one which was suspected to be most plausible as the one causing the real vibrations experienced in the inital test flights. Initially it is not clear that the 4th Modes are the same, but each arm is seemingly moving/rotating in the same direction as before, suggesting it could be the same. If so, the frequency has been increased by 172% from 120Hz to 326.7Hz. The first 8 modes for both body geometries is shown at the bottom of this page.
+Mode 4 is the one which was suspected to be most plausible as the one causing the real vibrations experienced in the inital test flights. Initially it is not clear that the 4th Modes are the same, but each arm is seemingly moving/rotating in the same direction as before, suggesting it could be the same. If so, the frequency has been increased by 172% from 120Hz to 326.7Hz. I will not compare modes 5-8 here, but the animations are all at the bottom of this page for your viewing pleasure.
 
 <img src="/images/generative_drone_mode4_comparison.gif" alt="" class="inline">
 
@@ -105,7 +105,7 @@ Once the modal analysis was complete, the modified geometry was 3D printed, and 
 
 <img src="/images/generative_drone_comparison.jpg" alt="" class="inline">
 
-The same components were added, and a second test flight showed no sign of heavy vibration or resonance up to 50% throttle. No testing above 50% throttle has been done so far. The modified body weighs 54.69g, which is only 7g more than the original design (under 5% of the total drone mass of 150g) the slight increase in mass and extra drag beneath the propellers is a small price to pay to remove the vibration present in the first flight.
+The same components were added, and a second test flight showed no sign of heavy vibration or resonance up to 50% throttle. No testing above 50% throttle has been done so far. The modified body weighs 54.69g, which is only 7g more than the original design (under 5% of the total drone mass of 150g) the slight increase in mass and extra drag beneath the propellers is a small price to pay to remove the vibration present in the first flights.
  
 <img src="/images/generative_drone1.jpg" alt="" class="inline">
 <img src="/images/generative_drone2.jpg" alt="" class="inline">
