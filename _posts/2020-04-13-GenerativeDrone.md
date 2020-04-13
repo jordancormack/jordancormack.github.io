@@ -66,11 +66,11 @@ Similarly to the generative design setup, modal analysis in Fusion 360 seems to 
 
 <img src="/images/generative_drone_mode1.gif" alt="" class="inline">
 
-The first mode which seems plausible in real life instead of just a rotation about the fixed constraint is mode 4. This mode seems to not just rotate around the fixed constraint has a frequency of 120Hz - which is only just above the 111Hz frequency of vibrations found in the BlackBox data log, suggesting that it could be the same mode. The real part is not completely solid which would cause it to be slightly less stiff than the solid simulation. From the animation it looks like the arms are flexing symmetrically in the horizontal plane. this is not a suprise, as there is much less stiffness in this axis than the vertical direction.
+The first mode which seems plausible in real life instead of just a rotation about the fixed constraint is mode 4. This mode seems to not just rotate around the fixed constraint and it has a frequency of 120Hz - which is only just above the 111Hz frequency of vibrations found in the BlackBox data log, suggesting that it could be the same mode. The real part is not completely solid which would cause it to be slightly less stiff than the solid simulation. From the animation it looks like the arms are flexing mostly in the horizontal plane. This is not a suprise, as there is much less stiffness in this axis than the vertical direction.
 
 <img src="/images/generative_drone_mode4.gif" alt="" class="inline">
 
-Below is a table of the first 8 modes and their corresponding frequencies. To me, all apart from mode 4 and 7 do not seem as valid since they mostly just rotate about the unrealistic fixed constraint at the base of the body. As Mode 7 is quite a bit higher in frequency than Mode 4 I will ignore it for now.
+Below is a table of the first 8 modes and their corresponding frequencies. To me, all apart from mode 4 and 7 do not seem to look as valid since they mostly just rotate about the unrealistic fixed constraint at the base of the body. As Mode 7 is quite a bit higher in frequency than Mode 4 I will ignore it for now.
 
 | Mode | Frequency (Hz) |
 |:------:|:-----------:|
@@ -89,7 +89,7 @@ In an attempt to increase the arm stiffness in the horizontal plane, additional 
 
 <img src="/images/generative_drone_body_iso_stiffer.png" alt="" class="inline">
 
-Results from a modal analysis of the modified geometry shows the first two modes staying the same, but increasing in frequency by 6% and 12% (Mode 1 comparison shown below).
+Results from a modal analysis of the modified geometry show the first two modes stay the same, but increase in frequency by 6% and 12% (Mode 1 comparison shown below).
 
 <img src="/images/generative_drone_mode1_comparison.gif" alt="" class="inline">
 
