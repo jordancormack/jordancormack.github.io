@@ -8,7 +8,7 @@ This post shows how generative design and modal analysis within Fusion 360 can b
 
 *I am not an expert on Generative Design or Modal Analysis, these are just some initial experiments*
 
-The following electronic components were used for this drone:
+The following electronic components were used for the drone:
 
 |         Component         |                                                                        Manufacturer                                                                        |
 |:-------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -41,6 +41,8 @@ The only change which was made before 3D printing, was to slice a small amount o
 
 <img src="/images/generative_drone_body_side.png" alt="" class="inline">
 <img src="/images/generative_drone_body_side_cut.png" alt="" class="inline">
+
+### Initial Testing
 
 Once printed, the components were added to check the mounting dimensions and clearances were all correct.
 
