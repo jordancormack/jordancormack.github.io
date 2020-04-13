@@ -4,7 +4,15 @@ title: "Designing a Drone in Fusion 360 using Generative Design & Modal Analysis
 image: /images/generative_drone1.jpg
 ---
 
-This post shows how generative design and modal analysis within Fusion 360 can be used to help design and develop a 3D printable drone body. For more specifics on Generative Design in Fusion 360, see my [previous post](https://jordancormack.github.io/GenerativeDesign/). To begin the body design, a list of components is needed, along with a few necessary dimensions.
+This post shows how generative design and modal analysis within Fusion 360 can be used to help design and develop a 3D printable drone body. For more specifics on Generative Design in Fusion 360, see my [previous post](https://jordancormack.github.io/GenerativeDesign/). The following electronic components were used for this drone:
+
+|         Component         |                                                                        Manufacturer                                                                        |
+|:-------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Flight Controller and ESC | [HGLRC F428 F4 Stack](https://www.hglrc.com/products/6-5g-20x20mm-hglrc-xjb-f428-micro-f4-aio-osd-bec-flight-controller-28a-blhel_s-bb2-2-4s-4-in-1-esc-1) |
+|          Battery          |                          [Turnigy 800mAh 3 Cell](https://hobbyking.com/en_us/turnigy-800mah-3s-30c-lipo-pack.html?___store=en_us)                          |
+|          Receiver         |                                     [Turnigy TGY-iA6C](https://hobbyking.com/en_us/turnigy-ia6c-ppm-sbus-receiver.html)                                    |
+|           Motors          |             [EMAX RS1306 4000kv (Version 1)](https://www.flyingtech.co.uk/electronics/emax-rs1306-racespec-mini-red-bottom-motor-33004000kv) x4            |
+|         Propellers        |                           [Gemfan 3035BN 4 Blade](https://hobbyking.com/en_us/3035-bullnose-pc-4-blade-orange-1-pair-cw-ccw.html)                          |
 
 | Mode | Frequency (Hz) |
 |:------:|:-----------:|
