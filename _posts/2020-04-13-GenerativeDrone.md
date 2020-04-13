@@ -29,6 +29,10 @@ These were measured to determine the size and mounting dimensions.
 | 7    | 501.4     |
 | 8    | 517.3     |
 
+### First 8 Modes
+
+Below is a table and GIFs for the first 8 modes of both bodies. The first two modes look to be the same but the rest are not, as the added geometry has affected the stiffness more.
+
 | Mode | Body 1 Frequency (Hz) | Body 2 Frequency (Hz) |
 |:----:|:---------------------:|:---------------------:|
 |   1  |         89.48         |         94.78         |
@@ -39,10 +43,6 @@ These were measured to determine the size and mounting dimensions.
 |   6  |         379.2         |         392.6         |
 |   7  |         501.4         |         395.2         |
 |   8  |         517.3         |         420.3         |
-
-### First 8 Modes
-
-Below are GIFs of the first 8 modes for each body. The first two look to be the same, but the rest are not.
 
 <img src="/images/generative_drone_mode1_comparison.gif" alt="" class="inline">
 <img src="/images/generative_drone_mode2_comparison.gif" alt="" class="inline">
