@@ -62,7 +62,7 @@ As it is very difficult to see exactly how the body is vibrating at that frequen
 
 ### Modal Analysis
 
-Similarly to the generative design setup, modal analysis in Fusion 360 seems to require a fixed constraint on some part of the geometry. This will result in some modes being present in the analyis results which may not be exactly correct in real life - as instead of the body flexing, the whole drone would just rotate. The first mode is an example of this - it can be seen that the body is 'flexing' about the fixed constraint at the bottom. In real life this mode would not be likely as it would probably just rotate around the centre of mass instead of an unrealistic fixed point.
+Modal analysis allows us to find various frequencies at which a structure will resonate, based on its mass and stiffness. Similarly to the generative design setup, modal analysis in Fusion 360 seems to require a fixed constraint on some part of the geometry. This will result in some modes being present in the analyis results which may not be exactly correct in real life - as instead of the body flexing, the whole drone would just rotate. The first mode is an example of this - it can be seen that the body is 'flexing' about the fixed constraint at the bottom. In real life this mode would not be likely as it would probably just rotate around the centre of mass instead of an unrealistic fixed point.
 
 <img src="/images/generative_drone_mode1.gif" alt="" class="inline">
 
