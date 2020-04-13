@@ -14,6 +14,10 @@ This post shows how generative design and modal analysis within Fusion 360 can b
 |           Motors          |             [EMAX RS1306 4000kv (Version 1)](https://www.flyingtech.co.uk/electronics/emax-rs1306-racespec-mini-red-bottom-motor-33004000kv) x4            |
 |         Propellers        |                           [Gemfan 3035BN 4 Blade](https://hobbyking.com/en_us/3035-bullnose-pc-4-blade-orange-1-pair-cw-ccw.html) x4                       |
 
+These were measured to determine the size and mounting dimensions.
+
+
+
 | Mode | Frequency (Hz) |
 |:------:|:-----------:|
 | 1    | 89.48     |
@@ -36,4 +40,15 @@ This post shows how generative design and modal analysis within Fusion 360 can b
 |   7  |         501.4         |         395.2         |
 |   8  |         517.3         |         420.3         |
 
+### First 8 Modes
+
+Below are GIFs of the first 8 modes for each body. The first two look to be the same, but the rest are not.
+
 <img src="/images/generative_drone_mode1_comparison.gif" alt="" class="inline">
+<img src="/images/generative_drone_mode2_comparison.gif" alt="" class="inline">
+<img src="/images/generative_drone_mode3_comparison.gif" alt="" class="inline">
+<img src="/images/generative_drone_mode4_comparison.gif" alt="" class="inline">
+<img src="/images/generative_drone_mode5_comparison.gif" alt="" class="inline">
+<img src="/images/generative_drone_mode6_comparison.gif" alt="" class="inline">
+<img src="/images/generative_drone_mode7_comparison.gif" alt="" class="inline">
+<img src="/images/generative_drone_mode8_comparison.gif" alt="" class="inline">
