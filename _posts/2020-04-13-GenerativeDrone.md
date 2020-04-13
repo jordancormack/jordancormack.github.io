@@ -4,9 +4,9 @@ title: "Designing a Drone in Fusion 360 using Generative Design & Modal Analysis
 image: /images/generative_drone1.jpg
 ---
 
-This post shows how generative design and modal analysis within Fusion 360 can be used to help design and develop a 3D printable drone body.
+This post shows how generative design and modal analysis within Fusion 360 can be used to help design and develop a 3D printable drone body. For more specifics on Generative Design in Fusion 360, see my [previous post](https://jordancormack.github.io/GenerativeDesign/). To begin the body design, a list of components is needed, along with a few necessary dimensions.
 
-| Mode | Frequency |
+| Mode | Frequency (Hz) |
 |:------:|:-----------:|
 | 1    | 89.48     |
 | 2    | 108.1     |
