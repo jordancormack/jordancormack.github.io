@@ -24,7 +24,7 @@ The above components were measured to determine their size and mounting dimensio
 
 <img src="/images/generative_drone_preserve.png" alt="" class="inline">
 
-After the preserve geometry is done, obstacle geometry must be created. This tells the generative design algorithm where top avoid placing material. Initially, this geometry is placed where the battery, motors, flight controller, and bolt paths are located. As generative design has no way to simulate airflow, four large C-shaped bodies have also been created to allow space in the generated body for air to flow past.
+After the preserve geometry is done, obstacle geometry must be created. This tells the generative design algorithm where to avoid placing material. Initially, this geometry is placed where the battery, motors, flight controller, and bolt paths are located. As generative design has no way to simulate airflow, four large C-shaped bodies have also been created to allow space in the generated body for air to flow past.
 
 <img src="/images/generative_drone_obstacle.png" alt="" class="inline">
 <img src="/images/generative_drone_obstacle2.png" alt="" class="inline">
