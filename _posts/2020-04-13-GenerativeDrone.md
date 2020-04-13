@@ -56,7 +56,7 @@ During the initial flight tests the drone was capable of controlled flight, but 
 From the motor datasheet, there is no RPM given for 10% throttle, but extrapolating the given data gives a theoretical RPM of 6665 - which is 111 revolutions per second, matching the oscillation frequency shown in the gyro data. This shows that the motors are reaching a speed which is causing the body to resonate.
 
 The below video shows the harsh vibrations once the throttle is raised. In this case no propellers are mounted.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lxN22caPcKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="169" src="https://www.youtube.com/embed/lxN22caPcKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 As it is very difficult to see exactly how the body is vibrating at that frequency, a modal analysis was carried out using the CAD geometry in Fusion 360 in an attempt to understand the vibration and reduce it.
 
