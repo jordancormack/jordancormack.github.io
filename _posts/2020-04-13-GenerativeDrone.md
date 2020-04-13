@@ -105,7 +105,7 @@ Once the modal analysis was complete, the modified geometry was 3D printed, and 
 
 <img src="/images/generative_drone_comparison.jpg" alt="" class="inline">
 
-The same components were added, and a second test flight showed no sign of heavy vibration or resonance up to 50% throttle. No testing above 50% throttle has been done so far. The modified body weighs 54.69g, which is only 7g more than the original design (around 3% of the total drone mass which is 230g), the slight increase in mass and extra drag beneath the propellers is a small price to pay to remove the vibration present in the first flights.
+The same components were added, and a second test flight showed no sign of heavy vibration or resonance up to 50% throttle. No testing above 50% throttle has been done so far. The modified body weighs 54.69g, which is only 7g more than the original design which was 46.75g. The slight increase in mass (3% of the total 230g drone) and extra drag beneath the propellers is a small price to pay to remove the vibration present in the first flights.
  
 <img src="/images/generative_drone1.jpg" alt="" class="inline">
 <img src="/images/generative_drone2.jpg" alt="" class="inline">
