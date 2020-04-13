@@ -25,6 +25,19 @@ After the preserve geometry is done, obstacle geometry must be created. This tel
 <img src="/images/generative_drone_obstacle.png" alt="" class="inline">
 <img src="/images/generative_drone_obstacle2.png" alt="" class="inline">
 
+Each motor is assumed to have around 3N of max thrust with the chosen propeller at 14.8V. A slightly higher load of 5N was applied to each motor mount, and fixed constraints were applied to the inside of the battery housing. In real life, no part of the drone is 'fixed' and the force acts at the centre of gravity - but Fusion 360 will not allow a generative design to run without a fixed constraint somewhere, so this was the most reasonable solution, as the battery is by far the heaviest component.
+
+### Generative Design Outcome Geometry
+
+The generative design algorithm was set to generate an 'unrestricted' outcome, as well as three additive manufacturing outcomes (one for each positive co-ordinate axis). The additive manufacturing method outcomes are supposed to be generated in a way which makes manufacturing them easier in whichever orientation the outcome is set to. This sometimes works well, but in this case the unrestricted outcome (shown below) was already close to being 3D printable.
+
+<img src="/images/generative_drone_body_iso.png" alt="" class="inline">
+
+The only change which was made before 3D printing, was to slice a small amount off the base, to allow it to sit flat on the built plate without needing any support structure.
+
+<img src="/images/generative_drone_body_side_cut.png" alt="" class="inline">
+<img src="/images/generative_drone_body_side_cut.png" alt="" class="inline">
+
 | Mode | Frequency (Hz) |
 |:------:|:-----------:|
 | 1    | 89.48     |
