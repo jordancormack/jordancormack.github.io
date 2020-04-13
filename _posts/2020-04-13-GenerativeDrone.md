@@ -98,9 +98,16 @@ Mode 4 is the one which was suspected to be most plausible as the one causing th
 
 <img src="/images/generative_drone_mode4_comparison.gif" alt="" class="inline">
 
-Once the modal analysis was complete, the modified geometry was 3D printed, and is shown alongside the original below. The same components were added, and a second test flight showed no sign of heavy vibration or resonance up to 50% throttle. No testing above 50% throttle has been done so far.
+Once the modal analysis was complete, the modified geometry was 3D printed, and is shown alongside the original below.
 
 <img src="/images/generative_drone_comparison.jpg" alt="" class="inline">
+
+The same components were added, and a second test flight showed no sign of heavy vibration or resonance up to 50% throttle. No testing above 50% throttle has been done so far.
+ 
+<img src="/images/generative_drone1.jpg" alt="" class="inline">
+<img src="/images/generative_drone2.jpg" alt="" class="inline">
+<img src="/images/generative_drone3.jpg" alt="" class="inline">
+<img src="/images/generative_drone4.jpg" alt="" class="inline">
 
 ### Conclusion
 
