@@ -53,7 +53,7 @@ During the initial flight tests the drone was capable of controlled flight, but 
 <img src="/images/BlackBoxLog.JPG" alt="" class="inline">
 <img src="/images/BlackBoxLog_gyros.png" alt="" class="inline">
 
-From the motor datasheet, there is no RPM given for 10% throttle, but extrapolating the given data gives a theoretical RPM of 6665 - which is 111 revolutions per second, matching the oscillation frequency shown in the gyro data. This shows that the motors are reaching a speed which is causing the body to resonate.
+From the motor datasheet, there is no RPM given for 10% throttle, but extrapolating the data gives a theoretical RPM of 6665, which is equal to 111 revolutions per second - matching the oscillation frequency shown in the gyro data. This shows that the motors are reaching a speed which is causing the body to resonate.
 
 The below video shows the harsh vibrations once the throttle is raised. In this case no propellers are mounted.
 <iframe width="350" height="197" src="https://www.youtube.com/embed/lxN22caPcKE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -89,7 +89,7 @@ In an attempt to increase the arm stiffness in the horizontal plane, additional 
 
 <img src="/images/generative_drone_body_iso_stiffer.png" alt="" class="inline">
 
-Results from a modal analysis of the modified geometry show the first two modes stay the same, but increase in frequency by 6% and 12% (Mode 1 comparison shown below).
+Results from a modal analysis of the modified geometry show the first two modes stay the same, but they increase in frequency by 6% and 12% respectively. (Mode 1 comparison shown below).
 
 <img src="/images/generative_drone_mode1_comparison.gif" alt="" class="inline">
 
@@ -105,7 +105,7 @@ Once the modal analysis was complete, the modified geometry was 3D printed, and 
 
 <img src="/images/generative_drone_comparison.jpg" alt="" class="inline">
 
-The same components were added, and a second test flight showed no sign of heavy vibration or resonance up to 50% throttle. No testing above 50% throttle has been done so far. The modified body weighs 54.69g, which is only 7g more than the original design (under 5% of the total drone mass of 150g) the slight increase in mass and extra drag beneath the propellers is a small price to pay to remove the vibration present in the first flights.
+The same components were added, and a second test flight showed no sign of heavy vibration or resonance up to 50% throttle. No testing above 50% throttle has been done so far. The modified body weighs 54.69g, which is only 7g more than the original design (under 5% of the total drone mass of 150g), the slight increase in mass and extra drag beneath the propellers is a small price to pay to remove the vibration present in the first flights.
  
 <img src="/images/generative_drone1.jpg" alt="" class="inline">
 <img src="/images/generative_drone2.jpg" alt="" class="inline">
@@ -114,7 +114,7 @@ The same components were added, and a second test flight showed no sign of heavy
 
 ### Conclusion
 
-Generative design in Fusion 360 is a useful tool, but the setup is still fairly limiting and it is almost impossible to generate a geometry with multiple objectives such as minimum mass and drag with maximum stiffness for a complex load case such as a drone.
+Generative design in Fusion 360 is a useful tool, but the setup is still fairly limiting and it is almost impossible to generate a geometry with multiple objectives such as minimum mass and drag with maximum stiffness for a complex load case such as a drone. There are also currently some issues with the additive manufacturing method workflow which only gives an outcome in the three positive axes, this is a pain if the part is ideally printed in another direction. Rotating the part or co-ordinates is possible, but I found a bug in Fusion 360 when trying to do this so it is not currently recommended. Hopefully the bug is fixed soon and more control is added to the additive manufacturing method setup within generative design.
 
 Modal Analysis can also be useful, but again due to difficulties accurately simualting FDM 3D printed parts, it is mostly good for just comparisons and rough ballpark figures.
 
