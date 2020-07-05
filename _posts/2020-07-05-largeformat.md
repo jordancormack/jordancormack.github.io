@@ -22,10 +22,14 @@ In order to produce an image which covers the entire 4x5 frame, instead of rigid
 
 <img src="/images/large_format/pano_gif_2_trim.gif" alt="overview" class="inline">
 
-The inner frame is constructed using 2020 aluminium extrusion, with 
+To move the camera around on a fixed plane, a similar motion mechanism to a 3D printer was used. The frame is constructed using 2020 aluminium extrusion, with the camera mounted to bearings and it is pulled horizontally across smooth rods using a belt connected to a stepper motor. This horizontal axis is mounted at each end to a threaded rod, which raises and lowers the camera using two more stepper motors. The lens is mounted to a rail which allows it to slide backwards and forwards in order to focus. Rigid board is mounted to the back and sides of the frame to block excess light. When photos are taken, the top and front are also covered - aside from a small opening for the lens. The motion system is controlled using a 3D printer control board, with a custom program written using the Arduino IDE.
 
-<img src="/images/large_format/Assembly1.jpg" alt="overview" class="inline">
+<img src="/images/large_format/Assembly1b.jpg" alt="overview" class="inline">
+
+A test image was created using a series of individual images, merged in Photoshop. It can be seen that there are slight differences between individual images, making it easy to spot where one stops and the next one starts.
 
 <img src="/images/large_format/position_only_res.jpg" alt="overview" class="inline">
+
+Photoshop has an option to blend the images and correct for vignetting, which does a good job at eliminating the visible image edges.
 
 <img src="/images/large_format/blended_res.jpg" alt="overview" class="inline">
