@@ -14,7 +14,7 @@ Below is a comparison of a large format camera, compared to the sensor size of a
 
 <img src="/images/large_format/sensor_sizes.jpg" alt="overview" class="inline">
 
-Old large format lenses can be easily found on sites like eBay for relatively little money, and although using them on a standard digital camera is possible, only the centre of the frame is captured. This is because they are designed for a much larger film/sensor size.
+Old large format lenses can be easily found on sites like eBay for relatively little money, and although using them on a standard digital camera is possible, only the centre of the frame is captured. This is because they are designed for a much larger film/sensor size. From the illustration below, it can be seen that when a large format lens is mounted in front of a standard sized sensor, it can only see a small part of the full image. This reduction in view is commonly known as the 'crop factor'.
 
 <img src="/images/large_format/crop.jpg" alt="overview" class="inline">
 
