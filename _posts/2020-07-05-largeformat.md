@@ -25,8 +25,6 @@ In order to produce an image which covers the entire 4x5 frame, instead of rigid
 
 <img src="/images/large_format/Assembly1.jpg" alt="overview" class="inline">
 
-The below GIF illustrates the small digital camera sensor moving around to cover the 4x5 frame.
-
 <img src="/images/large_format/pano_slice_2.jpg" alt="overview" class="inline">
 
 <img src="/images/large_format/pano_slice_3.jpg" alt="overview" class="inline">
