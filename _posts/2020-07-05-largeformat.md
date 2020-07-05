@@ -34,6 +34,8 @@ A larger image was then created using a series of individual images, taken by mo
 
 <img src="/images/large_format/position_only_res.jpg" alt="overview" class="inline">
 
-Photoshop has an option to blend the images and correct for vignetting, which does a good job at eliminating the visible image edges.
+Photoshop has an option to blend the images and correct for vignetting, which does a good job at eliminating the visible individual image edges. The resolution of this image is 16507x6906 (approximately 114 megapixels).
 
 <img src="/images/large_format/blended_res.jpg" alt="overview" class="inline">
+
+The above test images are only taken from a small section of the overal large format lens projection. More will be posted soon with an even larger field of view and resolution.
