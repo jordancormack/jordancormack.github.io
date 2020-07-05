@@ -17,5 +17,3 @@ image: /images/pano_slice_1.jpg
 <img src="/images/large_format/pano_slice_2.jpg" alt="overview" class="inline">
 
 <img src="/images/large_format/pano_slice_3.jpg" alt="overview" class="inline">
-
-<img src="/images/large_format/pano_slice_1.jpg" alt="overview" class="inline">
