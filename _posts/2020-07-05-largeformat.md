@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pseudo Large Format Digital Camera
-image: /images/pano_slice_1.jpg
+image: /images/large_format/pano_slice_1.jpg
 ---
 
 ### this post is currently in the process of being written - come back soon!
