@@ -8,7 +8,7 @@ Large format cameras are ones which are designed to photograph a much larger ima
 
 <img src="/images/large_format/wista.jpg" alt="overview" class="inline">
 
-Below is a comparison of a large format camera, compared to the sensor size of an iPhone, an APS-C sensor which is a common size for most DSLRs, and a full-frame sensor which is used for professional cameras and is equivalent to standard 35mm photography film in size. It can be seen that all of these other film/sensor sizes are dwarfed by that of large format!
+Below is a comparison of a large format camera frame, compared to the sensor size of an iPhone, an APS-C sensor which is a common size for most DSLRs, and a full-frame sensor which is used for professional cameras and is equivalent to standard 35mm photography film in size. It can be seen that all of these other film/sensor sizes are dwarfed by that of large format!
 
 <img src="/images/large_format/sensor_sizes.jpg" alt="overview" class="inline">
 
