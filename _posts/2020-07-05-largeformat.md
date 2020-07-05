@@ -6,7 +6,9 @@ image: /images/large_format/pano_slice_1.jpg
 
 ### this post is currently in the process of being written - come back soon!
 
-<img src="/images/large_format/large_format_camera.jpg" alt="overview" class="inline">
+Below is a 
+
+<img src="/images/large_format/wista.jpg" alt="overview" class="inline">
 
 <img src="/images/large_format/sensor_sizes.jpg" alt="overview" class="inline">
 
