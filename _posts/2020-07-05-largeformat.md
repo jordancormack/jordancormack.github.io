@@ -14,8 +14,15 @@ Below is a comparison of a large format camera, compared to the sensor size of a
 
 <img src="/images/large_format/sensor_sizes.jpg" alt="overview" class="inline">
 
-<img src="/images/large_format/pano_gif_2_trim.gif" alt="overview" class="inline">
+Old large format lenses can be easily found on sites like eBay for relatively little money, and although using them on a standard digital camera is possible, only the centre of the frame is captured.
 
+In order to produce an image which covers the entire 4x5 frame, instead of rigidly mounting the lens to the camera, a custom frame has been created to translate the camera around the 2D plane of the sensor. Individual images can then be captured and stitched together using a PC to create a single high-resolution image showing the full 4x5 frame projected by the large format lens.
+
+<img src="/images/large_format/Assembly1.jpg" alt="overview" class="inline">
+
+The below GIF illustrates the small digital camera sensor moving around to cover the 4x5 frame.
+
+<img src="/images/large_format/pano_gif_2_trim.gif" alt="overview" class="inline">
 <img src="/images/large_format/pano_illustration_1.jpg" alt="overview" class="inline">
 
 <img src="/images/large_format/pano_slice_2.jpg" alt="overview" class="inline">
