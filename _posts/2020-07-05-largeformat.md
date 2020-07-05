@@ -4,8 +4,6 @@ title: Pseudo Large Format Digital Camera
 image: /images/large_format/Assembly1b.jpg
 ---
 
-### this post is currently in the process of being written - come back soon!
-
 Large format cameras are ones which are designed to photograph a much larger image than 'standard' cameras. The majoprity of large format cameras are similar to that shown below, which takes a 4x5 (inch) photo using film. The main reason to use a large format camera is to get a higher resolution than standard sized formats. As high resolution digital photography has become more popular, large format film cameras have fallen in popularity.
 
 <img src="/images/large_format/wista.jpg" alt="overview" class="inline">
@@ -38,4 +36,8 @@ Photoshop has an option to blend the images and correct for vignetting, which do
 
 <img src="/images/large_format/blended_res.jpg" alt="overview" class="inline">
 
-The above test images are only taken from a small section of the overal large format lens projection. More will be posted soon with an even larger field of view and resolution.
+The above test images are only taken from a small section of the overal large format lens projection (see below for an approximation). More will be posted soon with an even larger field of view and resolution.
+
+<img src="/images/large_format/inner_frame.jpg" alt="overview" class="inline">
+
+### more to come soon!
