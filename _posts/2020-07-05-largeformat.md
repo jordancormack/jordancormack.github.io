@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pseudo Large Format Digital Camera
-image: /images/large_format/pano_slice_1.jpg
+image: /images/large_format/Assembly1b.jpg
 ---
 
 ### this post is currently in the process of being written - come back soon!
@@ -26,7 +26,11 @@ To move the camera around on a fixed plane, a similar motion mechanism to a 3D p
 
 <img src="/images/large_format/Assembly1b.jpg" alt="overview" class="inline">
 
-A test image was created using a series of individual images, merged in Photoshop. It can be seen that there are slight differences between individual images, making it easy to spot where one stops and the next one starts.
+Below is a single frame taken with the camera. As expected, the image is quite zoomed in, as it is only seeing a small frame from the middle of what the full lens is projecting.
+
+<img src="/images/large_format/single_frame.jpg" alt="overview" class="inline">
+
+A larger image was then created using a series of individual images, taken by moving the camera around slightly. The images were merged in Photoshop. It can be seen that there are slight differences between individual images, making it easy to spot where one stops and the next one starts.
 
 <img src="/images/large_format/position_only_res.jpg" alt="overview" class="inline">
 
