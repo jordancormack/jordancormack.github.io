@@ -21,7 +21,8 @@ Old large format lenses can be easily found on sites like eBay for relatively li
 In order to produce an image which covers the entire 4x5 frame, instead of rigidly mounting the lens to the camera, a custom frame was been created to translate the camera around the 2D plane of the sensor. Individual images can then be captured and stitched together using a PC to create a single high-resolution image showing the full 4x5 frame projected by the large format lens.
 
 <img src="/images/large_format/pano_gif_2_trim.gif" alt="overview" class="inline">
-<img src="/images/large_format/pano_illustration_1.jpg" alt="overview" class="inline">
+
+The inner frame is constructed using 2020 aluminium extrusion, with 
 
 <img src="/images/large_format/Assembly1.jpg" alt="overview" class="inline">
 
