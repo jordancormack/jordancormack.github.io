@@ -24,6 +24,8 @@ To move the camera around on a fixed plane, a similar motion mechanism to a 3D p
 
 <img src="/images/large_format/Assembly1b.jpg" alt="overview" class="inline">
 
+### Test 1: Using a Canon 6D
+
 Below is a single frame taken with the camera. As expected, the image is quite zoomed in, as it is only seeing a small frame from the middle of what the full lens is projecting.
 
 <img src="/images/large_format/single_frame.jpg" alt="overview" class="inline">
@@ -39,5 +41,15 @@ Photoshop has an option to blend the images and correct for vignetting, which do
 The above test images are only taken from a small section of the overal large format lens projection (see below for an approximation). More will be posted soon with an even larger field of view and resolution.
 
 <img src="/images/large_format/inner_frame.jpg" alt="overview" class="inline">
+
+### Test 2: Nikon 1 J2
+
+Although the Canon 6D performed well, further testing will be done using a Nikon 1 J2. Compared to the Canon, this Nikon has a smaller sensor but a higher pixel density. This means that more individual images will need to be taken to produce the same field of view, but the final resolution will be higher. I will also be switching from using Photoshop to merge the images, to using [Microsoft Image Composite Editor](https://www.microsoft.com/en-us/research/product/computational-photography-applications/image-composite-editor/) (MS ICE). Below is the a series of images taken using the Nikon, aligned but pre-stitching. The overall image is visable, but there are some initially strange artifacts to the right of the image. As the camera sensor is recessed into the body of the camera, as it moves to the side, the body begins to obstruct the sensor's view of the lens. This causes part of that individual image frame to contain a black bar on one side.
+
+<img src="/images/large_format/pano_nikon_1.jpg" alt="overview" class="inline">
+
+The stitched image is 34640x9743 pixels, which is equal to 337.5 megapixels. When MS ICE attempts to stitch the images together, it tries to match the brightness of each individual image to those which surround it. In a 'normal' panorama this makes perfect sense, however as some of these images have a dark side due to the body obstructing the sensor, this causes some strange exposure issues for these frames. One way to fix this issue is to take more images which overlap each other. This would ensure that there is always at least one frame which shows the un-obstructed view. MS ICE has also tried to level the exposure across the overal stitched image, which has caused the left hand side to become much darker than the original individual frames.
+
+<img src="/images/large_format/pano_nikon_1_stitch_smaller.jpg" alt="overview" class="inline">
 
 ### more to come soon!
