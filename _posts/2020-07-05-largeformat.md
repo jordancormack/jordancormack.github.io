@@ -20,9 +20,19 @@ In order to produce an image which covers the entire 4x5 frame, instead of rigid
 
 <img src="/images/large_format/pano_gif_2_trim.gif" alt="overview" class="inline">
 
-To move the camera around on a fixed plane, a similar motion mechanism to a 3D printer was used. The frame is constructed using 2020 aluminium extrusion, with the camera mounted to bearings which run on smooth rods. The camera is pulled left and right using a belt connected to a stepper motor. This horizontal axis is mounted at each end to a threaded rod, which raises and lowers the camera using two more stepper motors. The lens is mounted to a rail which allows it to slide backwards and forwards in order to focus. Rigid board is mounted to the back and sides of the frame to block excess light. When photos are taken, the top and front are also covered - aside from a small opening for the lens. The motion system is controlled using a 3D printer control board, with a custom program written using the Arduino IDE.
+To move the camera around on a fixed plane, a similar motion mechanism to a 3D printer was used. The frame is constructed using 2020 aluminium extrusion, with the camera mounted to bearings which run on smooth rods. The camera is pulled left and right using a belt connected to a stepper motor. This horizontal axis is mounted at each end to a threaded rod, which raises and lowers the camera using two more stepper motors. The lens is mounted to a rail which allows it to slide backwards and forwards in order to focus. Rigid board is mounted to the back and sides of the frame to block excess light. The motion system is controlled using a 3D printer control board, with a custom program written using the Arduino IDE.
 
 <img src="/images/large_format/Assembly1b.jpg" alt="overview" class="inline">
+
+Below are a few images of the initial camera setup. The rigid back and side panels can be seen, along with a flexible black front piece. Another black piece is placed on top when the camera is in use to block more excess light from entering. In an ideal world the camera rig would be completely light sealed aside from the lens - this will be done once the camera rig is fully functional. A Raspberry Pi is mounted to the back board which controls the camera and sends commands to the 3D printer control board below it.
+
+<img src="/images/large_format/camera_iso.jpg" alt="overview" class="inline">
+<img src="/images/large_format/camera_top.jpg" alt="overview" class="inline">
+<img src="/images/large_format/camera_back.jpg" alt="overview" class="inline">
+
+As stepper motors do not have any built-in position sensing, two switches were added which allows the system to find a 'home' position as a point of reference. The stepper motors are then calibrated and so can move from this home position to wherever the program commands.
+
+<img src="/images/large_format/camera_home.jpg" alt="overview" class="inline">
 
 ### Test 1: Using a Canon 6D
 
@@ -47,6 +57,10 @@ The above test images are only taken from a small section of the overal large fo
 Although the Canon 6D performed well, further testing will be done using a Nikon 1 J2. Compared to the Canon, this Nikon has a smaller sensor but a higher pixel density. This means that more individual images will need to be taken to produce the same field of view, but the final resolution will be higher. I will also be switching from using Photoshop to merge the images, to using [Microsoft Image Composite Editor](https://www.microsoft.com/en-us/research/product/computational-photography-applications/image-composite-editor/) (MS ICE). Below is the a series of images taken using the Nikon, aligned but pre-stitching. The overall image is visable, but there are some initially strange artifacts to the right of the image. As the camera sensor is recessed into the body of the camera, as it moves to the side, the body begins to obstruct the sensor's view of the lens. This causes part of that individual image frame to contain a black bar on one side.
 
 <img src="/images/large_format/pano_nikon_1.jpg" alt="overview" class="inline">
+
+There is also a pink shift to the individual images on the right. This is due to a colour shift in a protective layer on top of the camera sensor when viewed off axis (shown in a GIF below)
+
+<img src="/images/large_format/pink_shift.gif" alt="overview" class="inline">
 
 The stitched image is 34640x9743 pixels, which is equal to 337.5 megapixels. When MS ICE attempts to stitch the images together, it tries to match the brightness of each individual image to those which surround it. In a 'normal' panorama this makes perfect sense, however as some of these images have a dark side due to the body obstructing the sensor, this causes some strange exposure issues for these frames. One way to fix this issue is to take more images which overlap each other. This would ensure that there is always at least one frame which shows the un-obstructed view. MS ICE has also tried to level the exposure across the overal stitched image, which has caused the left hand side to become much darker than the original individual frames.
 
