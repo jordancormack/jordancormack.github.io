@@ -32,7 +32,7 @@ Below are a few images of the initial camera setup. The rigid back and side pane
 
 As stepper motors do not have any built-in position sensing, two switches were added which allows the system to find a 'home' position as a point of reference. The stepper motors are then calibrated and so can move from this home position to wherever the program commands.
 
-<img src="/images/large_format/camera_home.jpg" alt="overview" class="inline">
+<img src="/images/large_format/camera_home.gif" alt="overview" class="inline">
 
 ### Test 1: Using a Canon 6D
 
