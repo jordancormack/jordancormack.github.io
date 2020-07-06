@@ -36,6 +36,9 @@ As stepper motors do not have any built-in position sensing, two switches were a
 
 ### Test 1: Using a Canon 6D
 
+<img src="/images/large_format/6D.jpg" alt="overview" class="inline">
+
+
 Below is a single frame taken with the camera. As expected, the image is quite zoomed in, as it is only seeing a small frame from the middle of what the full lens is projecting.
 
 <img src="/images/large_format/single_frame.jpg" alt="overview" class="inline">
