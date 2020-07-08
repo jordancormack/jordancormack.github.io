@@ -69,4 +69,18 @@ The stitched image is 34640x9743 pixels, which is equal to 337.5 megapixels. Whe
 
 <img src="/images/large_format/pano_nikon_1_stitch_smaller.jpg" alt="overview" class="inline">
 
-### more to come soon!
+### Test 3: Nikon 1 J2
+
+A third test was done using many more individual images, covering a larger area of the lens. This resulted in the below image preview in MS ICE pre-stitching. The darker corners (vignetting) are clearly seen, as well as the pink shift due to the Nikon 1 J2's sensor covering.
+
+<img src="/images/large_format/pano_nikon_5_prestitch.jpg" alt="overview" class="inline">
+
+When MS ICE stitches the images, it attempts to correct for these issue and the result is an overcompensation for both the dark corners and the pink shift - resulting in the corners becoming overexposed with a green tint.
+
+<img src="/images/large_format/DSC_5072_stitch_smaller.jpg" alt="overview" class="inline">
+
+Below is the resolution of this test image - over 700mp!
+
+<img src="/images/large_format/pano_nikon_5_info.jpg" alt="overview" class="inline">
+
+### ...more to come soon!
