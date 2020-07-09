@@ -79,8 +79,8 @@ When MS ICE stitches the images, it attempts to correct for these issue and the 
 
 <img src="/images/large_format/DSC_5072_stitch_smaller.jpg" alt="overview" class="inline">
 
-Below is the resolution of this test image - over 700mp!
+Below is the resolution of this test image - over 700mp! I am still trying to find a way to upload these in full resolution for easy viewing.
 
 <img src="/images/large_format/pano_nikon_5_info.jpg" alt="overview" class="inline">
 
-### ...more to come soon!
+*...more to come soon!*
