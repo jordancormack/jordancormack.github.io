@@ -21,7 +21,7 @@ In early 2020 the Raspberry Pi Foundation released the (Pi HQ Camera)[https://ww
 <img src="/images/gigapi/full_image_2_pi.jpg" alt="overview" class="inline">
 <img src="/images/gigapi/full_image_gray.jpg" alt="overview" class="inline">
 
-<img src="/images/gigapi/test4_stitch.jpg" alt="overview" class="inline">
+<img src="/images/gigapi/test4_stitch_4MP.jpg" alt="overview" class="inline">
 <img src="/images/gigapi/test4_stitch_crop.jpg" alt="overview" class="inline">
 
 <iframe allowfullscreen="true" src="https://www.easyzoom.com/embed/99bca385b89c45bc9f45732602ef78cb" width="400" height="300"></iframe>
