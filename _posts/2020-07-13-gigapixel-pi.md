@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gigapixel Photography with the Raspberry Pi
-image: /images/gigapi/test4_stitch_4MP.jpg
+image: /images/gigapi/thumb.jpg
 ---
 
 In early 2020 the Raspberry Pi Foundation released the (Pi HQ Camera)[https://www.raspberrypi.org/blog/new-product-raspberry-pi-high-quality-camera-on-sale-now-at-50/]. It features a sensor which is bigger and higher resolution than previous Pi cameras, and it is designed for use with C or CS-mount lenses (which are commonly used in things like CCTV cameras). This is great, but what if you want to take even higher resolution images with your Raspberry Pi?
