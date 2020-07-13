@@ -4,7 +4,7 @@ title: Gigapixel Photography with the Raspberry Pi
 image: /images/gigapi/thumb.jpg
 ---
 
-In early 2020 the Raspberry Pi Foundation released the (Pi HQ Camera)[https://www.raspberrypi.org/blog/new-product-raspberry-pi-high-quality-camera-on-sale-now-at-50/]. It features a sensor which is bigger and higher resolution than previous Pi cameras, and it is designed for use with C or CS-mount lenses (which are commonly used in things like CCTV cameras). This is great, but what if you want to take even higher resolution images with your Raspberry Pi? 
+In early 2020 the Raspberry Pi Foundation released the [Pi HQ Camera](https://www.raspberrypi.org/blog/new-product-raspberry-pi-high-quality-camera-on-sale-now-at-50/). It features a sensor which is bigger and higher resolution than previous Pi cameras, and it is designed for use with C or CS-mount lenses (which are commonly used in things like CCTV cameras). This is great, but what if you want to take even higher resolution images with your Raspberry Pi? 
 
 I created a motion system which moves the Raspberry Pi HQ camera around a 2D plane, behind a fixed position large format lens. As this lens projects an image many times larger than the sensor of the Pi HQ camera, as the camera is moved around behind it, images can be taken at muliple locations which can later be stitched into a single high resolution image. The motion system is an updated version of the one shown in my previous blog post ((Pseudo Large Format Digital Camera)[https://jordancormack.github.io/largeformat/]).
 
