@@ -6,14 +6,14 @@ image: /images/gigapi/thumb.jpg
 
 In early 2020 the Raspberry Pi Foundation released the [Pi HQ Camera](https://www.raspberrypi.org/blog/new-product-raspberry-pi-high-quality-camera-on-sale-now-at-50/). It features a sensor which is bigger and higher resolution than previous Pi cameras, and it is designed for use with C or CS-mount lenses (which are commonly used in things like CCTV cameras). This is great, but what if you want to take even higher resolution images with your Raspberry Pi? 
 
-I created a motion system which moves the Raspberry Pi HQ camera around a 2D plane, behind a fixed position large format lens. As this lens projects an image many times larger than the sensor of the Pi HQ camera, images can be taken at multiple locations behind the lens, which can later be stitched into a single high resolution image. The motion system is an updated version of the one shown in my previous blog post ([Pseudo Large Format Digital Camera](https://jordancormack.github.io/largeformat/)), built from old 3D printer parts, some 2020 aluminium extrusion, and some hardboard and corrugated plastic
+I created a motion system which moves the Raspberry Pi HQ camera around a 2D plane, behind a fixed position large format lens. As this lens projects an image many times larger than the sensor of the Pi HQ camera, images can be taken at multiple locations behind the lens, which can later be stitched into a single high resolution image. The motion system is an updated version of the one shown in my previous blog post ([Pseudo Large Format Digital Camera](https://jordancormack.github.io/largeformat/)), built from some old 3D printer parts, 2020 aluminium extrusion, thin hardboard and some corrugated plastic.
 
 <img src="/images/gigapi/CAD_1.jpg" alt="overview" class="inline">
 <img src="/images/gigapi/outside_1.jpg" alt="overview" class="inline">
 <img src="/images/gigapi/inside_1.jpg" alt="overview" class="inline">
 <img src="/images/gigapi/rear_1.jpg" alt="overview" class="inline">
 
-Stepper motors are connected to the old 3D printer control board, and a basic program was created using the Arduino IDE which takes commands from the Raspberry Pi. These commands tell the control board what direction to turn the stepper motors, and how many steps to move by. There is also a 'home' command which runs at the start of the program to position the camera in a known location.
+Stepper motors are connected to the old 3D printer control board, and a basic program was created using the Arduino IDE which takes commands from the Raspberry Pi. These commands tell the control board what direction to turn the stepper motors, and how many steps to move by. There is also a 'home' command which runs at the start of the program to position the camera in a known location - using a limit switch on each axis.
 
 <img src="/images/gigapi/electronics.jpg" alt="overview" class="inline">
 
@@ -29,7 +29,7 @@ Once the path is confirmed, the Raspberry Pi sends each movement command to the 
 <img src="/images/gigapi/full_image_2_pi.jpg" alt="overview" class="inline">
 <img src="/images/gigapi/full_image_gray.jpg" alt="overview" class="inline">
 
-I have done a test using Microsoft Image Composite Editor, which does a good job at blending the image together (some faint lines and miss-matched edges are visible), and can stitch images at over 1,000 megapixels. This equates to a 10x10 grid of images using the Pi HQ camera, with an overlap of around 10%. A reduced resolution image is shown below, along with a cropped region.
+I have done another test using Microsoft Image Composite Editor, which does a good job at blending the image together (some faint lines and miss-matched edges are visible), and can stitch images at over 1,000 megapixels. This equates to a 10x10 grid of images using the Pi HQ camera, with an overlap of around 10%. A reduced resolution image is shown below, along with a cropped region.
 
 <img src="/images/gigapi/test4_stitch_4MP.jpg" alt="overview" class="inline">
 <img src="/images/gigapi/test4_stitch_crop.jpg" alt="overview" class="inline">
