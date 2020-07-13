@@ -13,10 +13,10 @@ In early 2020 the Raspberry Pi Foundation released the (Pi HQ Camera)[https://ww
 <img src="/images/gigapi/inside_1.jpg" alt="overview" class="inline">
 <img src="/images/gigapi/rear_1.jpg" alt="overview" class="inline">
 
-<img src="/images/gigapi/crop_1.png" alt="overview" class="inline">
-<img src="/images/gigapi/crop_2.png" alt="overview" class="inline">
-<img src="/images/gigapi/overal_1.png" alt="overview" class="inline">
-<img src="/images/gigapi/overlap_3.png" alt="overview" class="inline">
+<img src="/images/gigapi/crop_1.jpg" alt="overview" class="inline">
+<img src="/images/gigapi/crop_2.jpg" alt="overview" class="inline">
+<img src="/images/gigapi/overal_1.jpg" alt="overview" class="inline">
+<img src="/images/gigapi/overlap_3.jpg" alt="overview" class="inline">
 
 <img src="/images/gigapi/full_image_2_pi.jpg" alt="overview" class="inline">
 <img src="/images/gigapi/full_image_gray.jpg" alt="overview" class="inline">
