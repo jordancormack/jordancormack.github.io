@@ -4,7 +4,7 @@ title: Pseudo Large Format Digital Camera
 image: /images/large_format/Assembly1b.jpg
 ---
 
-Large format cameras are ones which are designed to photograph a much larger image than 'standard' cameras. The majority of large format cameras are similar to that shown below, which takes a 4x5 (inch) photo using film. The main reason to use a large format camera is to get a higher resolution than standard sized formats. As high resolution digital photography has become more popular, large format film cameras have fallen in popularity.
+Large format cameras are ones which are designed to photograph a much larger image than 'standard' cameras. The majority of large format cameras are similar to that shown below, which takes a 4x5 (inch) photo using photographic film. The main reason to use a large format camera is to get a higher resolution than standard sized formats. As high resolution digital photography using smaller sensors has become more popular, large format film cameras have fallen in popularity.
 
 <img src="/images/large_format/wista.jpg" alt="overview" class="inline">
 
@@ -16,7 +16,7 @@ Old large format lenses can be easily found on sites like eBay for relatively li
 
 <img src="/images/large_format/crop.jpg" alt="overview" class="inline">
 
-In order to produce an image which covers the entire 4x5 frame, instead of rigidly mounting the lens to the camera, the camera can be translated around the 2D plane of the sensor. Individual images can then be captured and stitched together using a PC to create a single high-resolution image showing the full 4x5 frame projected by the large format lens.
+In order to produce an image which covers the entire 4x5 frame, instead of rigidly mounting the lens to the camera body, the camera body can be translated around the 2D plane of the sensor behind the lens. Individual images can then be captured and stitched together using a PC to create a single high-resolution image showing the full 4x5 frame projected by the large format lens.
 
 <img src="/images/large_format/pano_gif_2_trim.gif" alt="overview" class="inline">
 
@@ -34,10 +34,22 @@ As stepper motors do not have any built-in position sensing, two switches were a
 
 <img src="/images/large_format/camera_home.gif" alt="overview" class="inline">
 
+Stepper motors are connected to the old 3D printer control board, and a basic program was created using the Arduino IDE which takes commands from the Raspberry Pi. These commands tell the control board what direction to turn the stepper motors, and how many steps to move by. There is also a 'home' command which runs at the start of the program to position the camera in a known location - using a limit switch on each axis.
+
+<img src="/images/gigapi/electronics.jpg" alt="overview" class="inline">
+
+Python is used on the Raspberry Pi to plan a route for the motion system to take. The user inputs the number of desired rows and columns which the final image will be made up of, and the starting position and path is generated. This path is centred behind the lens, in the middle of the known limits of the motion system. The path and individual image locations are then plotted. This path planner also has an input for image overlap - which is useful both for blending the images later, or producing a coarse test path.
+
+<img src="/images/gigapi/overal_1.png" alt="overview" class="inline">
+<img src="/images/gigapi/crop_1.png" alt="overview" class="inline">
+<img src="/images/gigapi/crop_2.png" alt="overview" class="inline">
+<img src="/images/gigapi/overlap_3.png" alt="overview" class="inline">
+
+Once the path is confirmed, the Raspberry Pi sends each movement command to the motor control board, stopping to take an image at each pre-generated location.
+
 ### Test 1: Using a Canon 6D
 
 <img src="/images/large_format/6D.jpg" alt="overview" class="inline">
-
 
 Below is a single frame taken with the camera. As expected, the image is quite zoomed in, as it is only seeing a small frame from the middle of what the full lens is projecting.
 
@@ -51,7 +63,7 @@ Photoshop has an option to blend the images and correct for vignetting, which do
 
 <img src="/images/large_format/blended_res.jpg" alt="overview" class="inline">
 
-The above test images are only taken from a small section of the overal large format lens projection (see below for an approximation). More will be posted soon with an even larger field of view and resolution.
+The above test images are only taken from a small section of the overal large format lens projection (see below for an approximation).
 
 <img src="/images/large_format/inner_frame.jpg" alt="overview" class="inline">
 
@@ -84,3 +96,37 @@ Below is the resolution of this test image - over 700mp! I am still trying to fi
 <img src="/images/large_format/pano_nikon_5_info.jpg" alt="overview" class="inline">
 
 *...more to come soon!*
+
+### Test 4: Raspberry Pi HQ Camera
+
+In early 2020 the Raspberry Pi Foundation released the [Pi HQ Camera](https://www.raspberrypi.org/blog/new-product-raspberry-pi-high-quality-camera-on-sale-now-at-50/). It features a sensor which is bigger and higher resolution than previous Pi cameras, and it is designed for use with C or CS-mount lenses (which are commonly used in things like CCTV cameras). This camera is much smaller than those used in previous tests, with an even higher pixel density. It is also directly controllable with the Pi which is already controlling the motion system. This means we can try stitching images on the Pi using NumPy and OpenCV for a complete psudo large format camera! The below image shows the Pi HQ camera mounted to the motion system.
+
+<img src="/images/gigapi/inside_1.jpg" alt="overview" class="inline">
+
+Initial testing showed that although the image stitching can be done on the Pi 4, the overall resolution possible is limited by the available RAM. This means that images of *only* around 500 megapixels can be created. One of the images stitched using this NumPy/OpenCV method on the Pi is shown below. Although the lens aperture and camera ISO, shutter speed and white balance are supposedly fixed, there are clear inconsistencies between the individual images. Some of these can be fixed by converting the image to greyscale, but the individual images are still noticeable. Using overlapping images, proper image stitching is [possible with OpenCV](https://www.pyimagesearch.com/2018/12/17/image-stitching-with-opencv-and-python/) but I have not yet tried this approach.
+
+<img src="/images/gigapi/full_image_2_pi.jpg" alt="overview" class="inline">
+<img src="/images/gigapi/full_image_gray.jpg" alt="overview" class="inline">
+
+I have done another test using Microsoft Image Composite Editor, which does a good job at blending the image together (some faint lines and miss-matched edges are visible), and can stitch images at over 1,000 megapixels. This equates to a 10x10 grid of images using the Pi HQ camera, with an overlap of around 10%. A reduced resolution image is shown below, along with a cropped region.
+
+<img src="/images/gigapi/test4_stitch_4MP.jpg" alt="overview" class="inline">
+<img src="/images/gigapi/test4_stitch_crop.jpg" alt="overview" class="inline">
+
+See below for a full-resolution view.
+
+<iframe allowfullscreen="true" src="https://www.easyzoom.com/embed/99bca385b89c45bc9f45732602ef78cb" width="400" height="300"></iframe>
+
+### Test 5: Raspberry Pi HQ Camera
+
+Below is are two screenshots from MS ICE. The first shows each of the individual images before stitching. The images are inverted as the Pi HQ Camera is mounted upside down in the motion system. It can be seen that the far edges have the same pink-shift that was happening when using the Nikon 1 J2. As digital sensors are designed to receive light from almost straight on, when they are used in applications like this where light is hitting them off-axis, colour shifts can happen.
+
+<img src="/images/gigapi/screenshot_1.jpg" alt="overview" class="inline">
+
+What makes this worse is the over-compensation MS ICE does when blending the image.
+
+<img src="/images/gigapi/screenshot_2.jpg" alt="overview" class="inline">
+
+Below is the same image converted to black and white (and resized to around 12 megapixels from 1520 megapixels!)
+
+<img src="/images/gigapi/test4_stitch_bw_small.jpg" alt="overview" class="inline">
