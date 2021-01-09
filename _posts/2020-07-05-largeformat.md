@@ -95,8 +95,6 @@ Below is the resolution of this test image - over 700mp! I am still trying to fi
 
 <img src="/images/large_format/pano_nikon_5_info.jpg" alt="overview" class="inline">
 
-*...more to come soon!*
-
 ### Test 4: Raspberry Pi HQ Camera
 
 In early 2020 the Raspberry Pi Foundation released the [Pi HQ Camera](https://www.raspberrypi.org/blog/new-product-raspberry-pi-high-quality-camera-on-sale-now-at-50/). It features a sensor which is bigger and higher resolution than previous Pi cameras, and it is designed for use with C or CS-mount lenses (which are commonly used in things like CCTV cameras). This camera is much smaller than those used in previous tests, with an even higher pixel density. It is also directly controllable with the Pi which is already controlling the motion system. This means we can try stitching images on the Pi using NumPy and OpenCV for a complete psudo large format camera! The below image shows the Pi HQ camera mounted to the motion system.
