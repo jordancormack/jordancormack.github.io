@@ -46,3 +46,9 @@ Below is a video of one of the recordings I have taken. Both the AV to HDMI conv
 <div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xj_3vBegMwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+and here's some macro shots of the beautifally complicated insides:
+
+<img src="/images/vme1-battery/inside2.jpg" alt="" class="inline">
+<img src="/images/vme1-battery/inside3.jpg" alt="" class="inline">
+<img src="/images/vme1-battery/inside4.jpg" alt="" class="inline">
