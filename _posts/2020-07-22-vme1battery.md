@@ -41,10 +41,14 @@ I then 3D printed an enclosure for to house the rest of the components and hide 
 <img src="/images/vme1-battery/rearcaseopen.jpg" alt="" class="inline">
 <img src="/images/vme1-battery/rearfinal.jpg" alt="" class="inline">
 
-Below is a video of one of the recordings I have taken. Both the AV to HDMI converter and HDMI capture device are low-cost versions, so I have absolutely no idea how this compares to the original quality using 8mm tapes, but it at least works!
+Below are some of the recordings I have taken. Both the AV to HDMI converter and HDMI capture device are low-cost versions, so I have absolutely no idea how this compares to the original quality using 8mm tapes, but it at least works!
 
 <div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xj_3vBegMwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KOF5dgefUbc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 and here's some macro shots of the beautifally complicated insides:
