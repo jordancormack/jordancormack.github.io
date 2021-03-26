@@ -4,10 +4,9 @@ title: "Digital Battery Backpack for the 1985 Canon VM-E1"
 image: /images/vme1-battery/thumb.jpg
 ---
 
-<img src="/images/vme1-battery/iso.jpg" alt="" class="inline">
-
 In 1985 Canon produced its first single-unit video camcorder, the [VM-E1](https://global.canon/en/c-museum/product/8mmvc310.html#:~:text=Canon%20produced%20its%20first%20single,and%20outstanding%20operability%20and%20functionality.). Whilst browsing Facebook Marketplace I saw one for sale for around £10 broken. Initially, I was mostly interested in it only for the included hard-case, but I have also always enjoyed taking apart old electronics equipment so I thought it was worth buying.
 
+<img src="/images/vme1-battery/iso.jpg" alt="" class="inline">
 <img src="/images/vme1-battery/case.jpg" alt="" class="inline">
 
 After picking it up I noticed that although dirty, it seemed to be in good condition for something 35 years old. I took the side off for a view inside, and again noticed it was in good condition and showed no signs of being dropped or damaged.
