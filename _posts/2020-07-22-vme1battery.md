@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Digital Battery Backpack for the 1985 Canon VM-E1"
+title: "Digital Recorder + Battery Backpack for the 1985 Canon VM-E1"
 image: /images/vme1-battery/thumb.jpg
 ---
 
