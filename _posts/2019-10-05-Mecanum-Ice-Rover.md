@@ -28,6 +28,6 @@ I managed to use some of the pins intended for the 3D printer's LCD for a standa
 
 <img src="/images/mecanum-ice/inside2.jpg" alt="" class="inline">
 
-Below is a video of the rover driving around.
+I used the Arduino IDE to write a program that tool RC commands from a standard transmitter and converted them into basic directions (e.g. forward, backward, left, right). I then created a separate function for each of these directions which contined all of the necesary directions that the four stepper motors needed to turn in order to move in that direction. This is slightly more involved than a rover which uses conventional wheels, as mecanum wheels result in a 45-degree force which allows the rover to not only drive forwards/backward and rotate, but also translate side to side. This can look very strange if you have never seem mecanum wheels in action - see below for a quick video showing the rover driving around.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/asmioWCbCow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
