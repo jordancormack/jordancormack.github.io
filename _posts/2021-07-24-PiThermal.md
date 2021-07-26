@@ -26,7 +26,7 @@ The below video shows an initial test of the thermal camera, where objects hotte
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OEY9zav8iLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
   
-# Still to do
+### Still to do
 
 * Properly align Pi camera and MLX90640 thermal image
 * Create GUI including temperature readouts
