@@ -8,17 +8,17 @@ I have always been interested in thermal cameras, but most which have any kind o
 
 As the resolution of the MLX90640 is low, I decided to use a standard Pi camera with a much higher resolution, and overlay the thermal camera on top. To do this, I connected both cameras to a Raspberry Pi 4 and used Python and OpenCV to capture images from both and overlay them on each other, before displaying them. Once the basic capability had been proven, a 3D printed enclosure was made which included a touch screen, and both cameras were mounted to the front relatively close to each other.
 
-<img src="/PiThermal/PiThermal1CADInside" alt="" class="inline">
-<img src="/PiThermal/PiThermal1Fiso" alt="" class="inline">
+<img src="/PiThermal/PiThermal1CADInside.png" alt="" class="inline">
+<img src="/PiThermal/PiThermal1Fiso.jpg" alt="" class="inline">
 
 The basic case is a simple box which is just large enough to house the essential components and the cables which connect them. The base of the case features an opening and mounting holes for additional components such as a tripod mount, or a battery grip handle.
 
-<img src="/PiThermal/PiThermal1Rear" alt="" class="inline">
-<img src="/PiThermal/PiThermal1HandleCAD" alt="" class="inline">
+<img src="/PiThermal/PiThermal1Uiso.jpg" alt="" class="inline">
+<img src="/PiThermal/PiThermal1HandleCAD.png" alt="" class="inline">
 
 Currently the Pi camera image overlaid with the thermal image is simply shown in an application window on the Pi's desktop.
 
-<img src="/PiThermal/PiThermal1Iiso" alt="" class="inline">
+<img src="/PiThermal/PiThermal1Rear.jpg." alt="" class="inline">
 
 The below video shows an initial test of the thermal camera, where objects hotter than the ambient room temperature can easily be seen (e.g. hot glue gun, 3D printer bed). It can be seen that the colour scale automatically scales to the range of temperatures visable, which is done automatically by the library I am using for the MLX90640. It is also clear that the standard camera and thermal camera images are not perfectly aligned. For basic use this isn't a huge issue, but better alignment would allow the system to be more useful.
 
