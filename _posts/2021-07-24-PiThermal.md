@@ -13,7 +13,7 @@ As the resolution of the MLX90640 is low, I decided to use a standard Pi camera 
 
 The basic case is a simple box which is just large enough to house the essential components and the cables which connect them. The base of the case features an opening and mounting holes for additional components such as a tripod mount, or a battery grip handle.
 
-<img src="/images/PiThermal/PiThermal1Uiso.jpg" alt="" class="inline">
+<img src="/images/PiThermal/PiThermalUiso.jpg" alt="" class="inline">
 <img src="/images/PiThermal/PiThermal1HandleCAD.png" alt="" class="inline">
 
 Currently the Pi camera image overlaid with the thermal image is simply shown in an application window on the Pi's desktop.
