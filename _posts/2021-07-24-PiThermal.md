@@ -18,7 +18,7 @@ The basic case is a simple box which is just large enough to house the essential
 
 Currently the Pi camera image overlaid with the thermal image is simply shown in an application window on the Pi's desktop.
 
-<img src="/images/PiThermal/PiThermal1Rear.jpg." alt="" class="inline">
+<img src="/images/PiThermal/PiThermal1Rear.jpg" alt="" class="inline">
 
 The below video shows an initial test of the thermal camera, where objects hotter than the ambient room temperature can easily be seen (e.g. hot glue gun, 3D printer bed). It can be seen that the colour scale automatically scales to the range of temperatures visable, which is done automatically by the library I am using for the MLX90640. It is also clear that the standard camera and thermal camera images are not perfectly aligned. For basic use this isn't a huge issue, but better alignment would allow the system to be more useful.
 
