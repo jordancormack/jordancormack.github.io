@@ -31,7 +31,7 @@ A battery grip consisting of an 18650 Li-Ion battery, a TP4056 charge controller
 <img src="/images/PiThermal/handheldiso.jpg" alt="" class="inline">
 <img src="/images/PiThermal/handheldgrip.jpg" alt="" class="inline">
 
-Although it is able to provide 5V from the battery to the Pi, the Pololu U1V11F5 was not quite able to provide enough power for the whole unit, so the Pi 4 Model B was swapped for a Pi 3 Model A which uses less power (at the expense of speed). Below is a video of the camera with the battery grip.
+Although it is able to provide 5V from the battery to the Pi, either the TP4056 or Pololu U1V11F5 step-up regulator was not quite able to provide enough power for the whole unit, so the Pi 4 Model B was swapped for a Pi 3 Model A which uses less power (at the expense of speed). Below is a video of the camera with the battery grip.
 
 <div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EsD35HSMCoE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
