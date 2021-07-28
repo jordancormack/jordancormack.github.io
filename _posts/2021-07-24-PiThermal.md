@@ -25,10 +25,20 @@ The below video shows an initial test of the thermal camera, where objects hotte
 <div class="video-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OEY9zav8iLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+A battery grip consisting of an 18650 Li-Ion battery, a TP4056 charge controller, a 5V step-up regulator, and an on/off switch was made and fixed to the bottom of the camera. 
+
+<img src="/images/PiThermal/handheldiso.jpg" alt="" class="inline">
+<img src="/images/PiThermal/handheldgrip.jpg" alt="" class="inline">
+
+Although it is able to provide 5V from the battery to the Pi, the Pololu U1V11F5 was not quite able to provide enough power for the whole unit, so the Pi 4 Model B was swapped for a Pi 3 Model A which uses less power (at the expense of speed). Below is a video of the camera with the battery grip.
+
+<div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EsD35HSMCoE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
   
 ### Still to do
 
 * Properly align Pi camera and MLX90640 thermal image
 * Create GUI including temperature readouts
 * Configure colour scales for thermal image
-* Finish battery handle extension
