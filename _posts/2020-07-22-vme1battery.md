@@ -28,7 +28,7 @@ Alongside this, I was wondering what the best way would be to actually record vi
 <img src="/images/vme1-battery/rfunit.jpg" alt="" class="inline">
 <img src="/images/vme1-battery/rearbottom.jpg" alt="" class="inline">
 
-The below image shows the 'adapter' connector pin layout, and the table below shows the corresponding connections which pass straight through the RU-E1B RF Unit. Pins 10 and 11 are of most interest, as they are what correspond to the RCA video output connector. Standard 'Dupont' style connectors fit onto the pins well enough.
+The below image shows the 'adapter' connector pin layout, and the table which follows it shows the corresponding connections which pass straight through the RU-E1B RF Unit. Pins 10 and 11 are of most interest, as they are what correspond to the RCA video output connector. Standard 'Dupont' style connectors fit onto the pins well enough.
 <img src="/images/vme1-battery/VME1_pins.jpg" alt="" class="inline">
 
 |      Pin     |         1         |          2         |         3         |         8        |         9         |         10        |         11         |
