@@ -24,6 +24,6 @@ Although I used standard 2.54mm spacing for the pin headers, the PCB and mountin
 
 <img src="/images/STM32devboard/F072photo.png" alt="" class="inline">
 
-Although the board functions with no issues, I did start to run into speed/memory limitations sooner than I would have liked. For simple or low power requirements, it'd be perfect and it's hard to argue with the price. However, I decided to swap the F072 for a L433, which (seems!) pin-compatible with the F072, but has about 2x the clock speed, and 4x the memory.
+Although the board functions with no issues, I did start to run into speed/memory limitations sooner than I would have liked. For simple or low power requirements, it'd be perfect and it's hard to argue with the price. However, I decided to swap the F072 for a L433, which (seems!) pin-compatible with the F072, but has about 2x the clock speed, and 4x the memory. I also added a reset button, as having to unplug USB to power-cycle to enter DFU mode got annoying pretty quickly!
 
 <img src="/images/STM32devboard/L433_3d.png" alt="" class="inline">
