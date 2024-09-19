@@ -24,6 +24,10 @@ Although I used standard 2.54mm spacing for the pin headers, the PCB and mountin
 
 <img src="/images/STM32devboard/F072photo.png" alt="" class="inline">
 
-Although the board functions with no issues, I did start to run into speed/memory limitations sooner than I would have liked. For simple or low power requirements, it'd be perfect and it's hard to argue with the price. However, I decided to swap the F072 for a L433, which (seems!) pin-compatible with the F072, but has about 2x the clock speed, and 4x the memory. I also added a reset button, as having to unplug USB to power-cycle to enter DFU mode got annoying pretty quickly!
+20 of these boards manufactured and assembled by JLCPCB comes to $85.29, including shipping. That's about £3.30 per board. Super cheap!
+
+Although the board functions with no issues, I did start to run into speed/memory limitations sooner than I would have liked. For simple or low power requirements, it'd be perfect and it's hard to argue with the price. However, I decided to swap the F072 for a L433, which (seems!) pin-compatible with the F072, but has about 2x the clock speed, and 4x the memory. I also added a reset button, as having to unplug USB to power-cycle to enter DFU mode got annoying pretty quickly! I also broke out USB pads underneath the USB-C port, as sometimes I mount PCBs in locations where the USB port isn't easily accessible, or I need a different connector.
 
 <img src="/images/STM32devboard/L433_3d.png" alt="" class="inline">
+
+Annoyingly, although the F072 and L433 are similarly priced on Mouser/Digikey, the L433 is a lot more expensive on JLCPCB (I assume as it's less popular, so lower stock). This does mean the newer version will cost more, but it should still work out to around £5 per board at quantities of 20+.
