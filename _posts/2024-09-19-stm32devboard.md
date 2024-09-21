@@ -45,3 +45,24 @@ See the below screenshot for Arduino IDE settings, first selecting the board (Ge
 To put the board into DFU mode to program over USB, hold down the boot button, and either press the reset button, or unplug and plug back in the USB if there isn't a reset button. No COM port will show up when in DFU mode, but it will show up in Device Manager (Windows). Once programmed, a COM port will become available for the serial connection (assuning the above settings are selected).
 
 The user LED is on pin PB12, and CAN RX and TX are on PB8 and PB9.
+
+### Example Code
+
+```
+// Serial and LED code for Jordan's STM32 Dev Boards
+
+void setup() {
+  Serial.begin(115200);
+  pinMode(PB13, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(PB13, HIGH);
+  Serial.println("LED ON");
+  delay(1000);
+
+  digitalWrite(PB13, LOW);
+  Serial.println("LED OFF");
+  delay(1000);
+}
+```
