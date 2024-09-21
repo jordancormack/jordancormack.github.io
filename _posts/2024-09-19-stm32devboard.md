@@ -38,10 +38,10 @@ I've been using these boards with the stm32duino core for Arduino. Either using 
 
 ## Arduino IDE settings
 
-See the below screenshot for Arduino IDE settings, first selecting the board (generic F0x or L4x series) followed by the board part number (Generic F072C8Tx or L433CCTx), upload method (DFU for USB, or SWD for the SWD pads on the back, if using an [external programmer](https://www.st.com/en/development-tools/stlink-v3minie.html)) Generic Serial and CDC USB can then be selected to use serial monitor over USB.
+See the below screenshot for Arduino IDE settings, first selecting the board (Generic STM32F0 or STM32L4 series) followed by the board part number (Generic F072C8Tx or L433CCTx), upload method (DFU for USB, or SWD for the SWD pads on the back, if using an [external programmer](https://www.st.com/en/development-tools/stlink-v3minie.html)) Generic Serial and CDC USB can then be selected to use serial monitor over USB.
 
 <img src="/images/STM32devboard/arduinof0.png" alt="" class="inline">
 
-To put the board into DFU mode to program over USB, hold down the boot button, and either press the reset button, or unplug and plug back in the USB if there isn't a reset button.
+To put the board into DFU mode to program over USB, hold down the boot button, and either press the reset button, or unplug and plug back in the USB if there isn't a reset button. No COM port will show up when in DFU mode, but it will show up in Device Manager (Windows). Once programmed, a COM port will become available for the serial connection (assuning the above settings are selected).
 
 The user LED is on pin PB12, and CAN RX and TX are on PB8 and PB9.
