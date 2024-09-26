@@ -47,7 +47,7 @@ To put the board into DFU mode to program over USB, hold down the boot button, a
 The user LED is on pin PB12, and CAN RX and TX are on PB8 and PB9.
 
 ### Example Code
-
+---
 {% highlight cpp %}
 // Serial and LED code for Jordan's STM32 Dev Boards
 
@@ -66,3 +66,4 @@ void loop() {
   delay(1000);
 }
 {% endhighlight %}
+---
