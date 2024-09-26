@@ -53,15 +53,15 @@ The user LED is on pin PB12, and CAN RX and TX are on PB8 and PB9.
 
 void setup() {
   Serial.begin(115200);
-  pinMode(PB13, OUTPUT);
+  pinMode(PB12, OUTPUT);
 }
 
 void loop() {
-  digitalWrite(PB13, HIGH);
+  digitalWrite(PB12, HIGH);
   Serial.println("LED ON");
   delay(1000);
 
-  digitalWrite(PB13, LOW);
+  digitalWrite(PB12, LOW);
   Serial.println("LED OFF");
   delay(1000);
 }
