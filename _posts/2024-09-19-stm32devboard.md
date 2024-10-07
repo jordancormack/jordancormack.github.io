@@ -14,7 +14,7 @@ I am using STM32 microcontrollers more and more for work and personal project, a
 - USB-C
 - CAN bus and USB concurrently
 - flat bottom / single sided
-- easy to manufacture (e.g. JLCPCB PCBA)
+- easy to manufacture (e.g. PCBWay / JLCPCB PCBA)
 
 When talking to someone about another recent PCB I'd made (a USB slider with a SAMD21), the STM32F072 came up. I looked through the datasheet and saw that it had USB and CAN, and unlike a lot of the smaller/lower cost STM32s, they were on separate pins! This means I can use it as a general purpose board for reading and writing CAN bus messages over USB.
 
