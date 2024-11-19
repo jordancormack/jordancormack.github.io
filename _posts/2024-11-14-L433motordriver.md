@@ -40,7 +40,9 @@ The external size of the PCB and enclosure match that of the original encoder + 
 
 <img src="/images/l433_bldc/IMG_2590_241116.jpg" alt="" class="inline">
 
-and it works! I uploaded the same code as I used for testing the SimpleFOC Mini with the GM3506 and my L433 dev boards, and it seems to work well.
+and it works! I still need to do some tuning of the SimpleFOC PIDs, and work out the magnet angle offsets, but I can send CAN messages between the motors for position control.
+
+<img src="/images/l433_bldc/PXL_20241119_224247584_exported_stabilized_1732056737244.gif" alt="" class="inline">
 
 ## To Do
 
