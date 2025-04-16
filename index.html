@@ -1,23 +1,25 @@
 ---
 layout: default
+title: Home
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<section class="intro">
+   <h1>Engineer of robotics and flying things.</h1>
+  <p></p>
+</section>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-      
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}">
-      </a>
-      
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More </a>
-      
-    </article>
-  {% endfor %}
-</div>
+<section class="grid-gallery">
+  <div class="grid-item">
+    <a href="https://jordan-cormack.gitbook.io/stuff">
+      <img src="/images/home/gitbook_canspplit.png" alt="Docs">
+      <h3>Docs</h3>
+    </a>
+  </div>
+  <div class="grid-item">
+    <a href="/blog">
+      <img src="/images/home/blog.png" alt="Blog">
+      <h3>Blog</h3>
+    </a>
+  </div>
+  <!-- Add more grid items as needed -->
+</section>
